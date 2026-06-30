@@ -1,0 +1,4 @@
+# Streaming demo backend (in addition to the research pipeline's requirements)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+# (websockets ships with uvicorn[standard]; numpy/pandas come from the main env)

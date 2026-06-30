@@ -1,0 +1,406 @@
+locality,season,persona,rent_score,col_score,commute_score,aqi_score,safety_score,lifestyle_score,composite_index,rank,verdict
+Hadapsar,Monsoon,Student / Fresher,87.6,50.0,54.0,0.0,0.0,55.3,57.6,12,Good
+Kharadi,Monsoon,Student / Fresher,58.1,50.0,100.0,0.0,40.0,13.0,52.8,17,Average
+Hinjewadi,Monsoon,Student / Fresher,77.1,50.0,100.0,32.2,60.0,100.0,70.3,3,Excellent
+Wagholi,Monsoon,Student / Fresher,89.0,50.0,64.9,0.0,80.0,37.7,70.5,1,Excellent
+Wakad,Monsoon,Student / Fresher,68.6,50.0,77.0,32.2,40.0,95.2,60.9,7,Good
+Baner,Monsoon,Student / Fresher,49.5,50.0,45.4,81.7,20.0,93.0,48.6,23,Average
+Lohegaon,Monsoon,Student / Fresher,94.3,50.0,31.6,0.0,0.0,6.8,55.9,14,Good
+Undri,Monsoon,Student / Fresher,82.4,50.0,25.3,100.0,40.0,0.4,60.6,8,Good
+Keshav Nagar,Monsoon,Student / Fresher,72.4,50.0,75.3,0.0,20.0,13.5,53.8,16,Average
+Dhanori,Monsoon,Student / Fresher,82.9,50.0,29.9,0.0,0.0,10.7,50.8,22,Average
+Manjri,Monsoon,Student / Fresher,87.7,50.0,31.6,0.0,0.0,0.0,52.6,19,Average
+Viman Nagar,Monsoon,Student / Fresher,49.5,50.0,63.2,48.7,60.0,35.9,51.8,20,Average
+Balewadi,Monsoon,Student / Fresher,59.0,50.0,50.6,32.2,40.0,99.8,54.2,15,Average
+Magarpatta,Monsoon,Student / Fresher,40.0,50.0,50.0,0.0,20.0,43.4,38.2,25,Below Average
+Aundh,Monsoon,Student / Fresher,54.3,50.0,60.9,81.7,60.0,98.1,58.5,10,Good
+Wadgaon Sheri,Monsoon,Student / Fresher,97.1,50.0,48.9,36.5,40.0,49.9,68.9,4,Good
+Kalyani Nagar,Monsoon,Student / Fresher,0.0,50.0,56.3,48.7,60.0,77.4,30.9,27,Below Average
+Punawale,Monsoon,Student / Fresher,81.9,50.0,49.4,32.2,20.0,0.7,56.4,13,Good
+Pimpri Chinchwad,Monsoon,Student / Fresher,97.1,50.0,35.1,36.5,20.0,66.7,65.4,6,Good
+Kondhwa,Monsoon,Student / Fresher,88.1,50.0,37.4,100.0,40.0,34.1,66.1,5,Good
+EON Free Zone,Monsoon,Student / Fresher,29.5,50.0,83.3,0.0,20.0,6.6,34.9,26,Below Average
+NIBM Road,Monsoon,Student / Fresher,59.0,50.0,21.8,100.0,0.0,11.9,44.4,24,Average
+Koregaon Park,Monsoon,Student / Fresher,30.5,50.0,52.3,89.6,100.0,87.7,52.8,17,Average
+Bavdhan,Monsoon,Student / Fresher,57.1,50.0,31.6,32.2,60.0,35.8,51.3,21,Average
+Katraj,Monsoon,Student / Fresher,100.0,50.0,20.7,100.0,40.0,47.5,70.4,2,Excellent
+Moshi,Monsoon,Student / Fresher,97.6,50.0,0.0,48.7,20.0,12.6,60.0,9,Good
+Mahalunge,Monsoon,Student / Fresher,76.2,50.0,45.4,36.5,40.0,27.2,58.0,11,Good
+Hadapsar,Monsoon,Junior IT Professional,87.6,50.0,54.0,0.0,0.0,55.3,50.1,18,Average
+Kharadi,Monsoon,Junior IT Professional,58.1,50.0,100.0,0.0,40.0,13.0,54.6,11,Average
+Hinjewadi,Monsoon,Junior IT Professional,77.1,50.0,100.0,32.2,60.0,100.0,71.5,1,Excellent
+Wagholi,Monsoon,Junior IT Professional,89.0,50.0,64.9,0.0,80.0,37.7,60.3,7,Good
+Wakad,Monsoon,Junior IT Professional,68.6,50.0,77.0,32.2,40.0,95.2,60.9,5,Good
+Baner,Monsoon,Junior IT Professional,49.5,50.0,45.4,81.7,20.0,93.0,52.6,13,Average
+Lohegaon,Monsoon,Junior IT Professional,94.3,50.0,31.6,0.0,0.0,6.8,44.0,22,Average
+Undri,Monsoon,Junior IT Professional,82.4,50.0,25.3,100.0,40.0,0.4,57.6,8,Good
+Keshav Nagar,Monsoon,Junior IT Professional,72.4,50.0,75.3,0.0,20.0,13.5,50.7,17,Average
+Dhanori,Monsoon,Junior IT Professional,82.9,50.0,29.9,0.0,0.0,10.7,40.4,24,Average
+Manjri,Monsoon,Junior IT Professional,87.7,50.0,31.6,0.0,0.0,0.0,41.7,23,Average
+Viman Nagar,Monsoon,Junior IT Professional,49.5,50.0,63.2,48.7,60.0,35.9,53.3,12,Average
+Balewadi,Monsoon,Junior IT Professional,59.0,50.0,50.6,32.2,40.0,99.8,51.7,15,Average
+Magarpatta,Monsoon,Junior IT Professional,40.0,50.0,50.0,0.0,20.0,43.4,36.2,27,Below Average
+Aundh,Monsoon,Junior IT Professional,54.3,50.0,60.9,81.7,60.0,98.1,62.2,4,Good
+Wadgaon Sheri,Monsoon,Junior IT Professional,97.1,50.0,48.9,36.5,40.0,49.9,60.8,6,Good
+Kalyani Nagar,Monsoon,Junior IT Professional,0.0,50.0,56.3,48.7,60.0,77.4,38.8,26,Below Average
+Punawale,Monsoon,Junior IT Professional,81.9,50.0,49.4,32.2,20.0,0.7,51.3,16,Average
+Pimpri Chinchwad,Monsoon,Junior IT Professional,97.1,50.0,35.1,36.5,20.0,66.7,56.2,10,Good
+Kondhwa,Monsoon,Junior IT Professional,88.1,50.0,37.4,100.0,40.0,34.1,64.0,2,Good
+EON Free Zone,Monsoon,Junior IT Professional,29.5,50.0,83.3,0.0,20.0,6.6,39.5,25,Below Average
+NIBM Road,Monsoon,Junior IT Professional,59.0,50.0,21.8,100.0,0.0,11.9,46.3,20,Average
+Koregaon Park,Monsoon,Junior IT Professional,30.5,50.0,52.3,89.6,100.0,87.7,57.5,9,Good
+Bavdhan,Monsoon,Junior IT Professional,57.1,50.0,31.6,32.2,60.0,35.8,45.2,21,Average
+Katraj,Monsoon,Junior IT Professional,100.0,50.0,20.7,100.0,40.0,47.5,64.0,2,Good
+Moshi,Monsoon,Junior IT Professional,97.6,50.0,0.0,48.7,20.0,12.6,46.7,19,Average
+Mahalunge,Monsoon,Junior IT Professional,76.2,50.0,45.4,36.5,40.0,27.2,52.5,14,Average
+Hadapsar,Monsoon,Senior IT Professional,87.6,50.0,54.0,0.0,0.0,55.3,42.8,16,Average
+Kharadi,Monsoon,Senior IT Professional,58.1,50.0,100.0,0.0,40.0,13.0,40.6,17,Average
+Hinjewadi,Monsoon,Senior IT Professional,77.1,50.0,100.0,32.2,60.0,100.0,76.8,1,Excellent
+Wagholi,Monsoon,Senior IT Professional,89.0,50.0,64.9,0.0,80.0,37.7,55.4,7,Good
+Wakad,Monsoon,Senior IT Professional,68.6,50.0,77.0,32.2,40.0,95.2,66.6,4,Good
+Baner,Monsoon,Senior IT Professional,49.5,50.0,45.4,81.7,20.0,93.0,59.3,6,Good
+Lohegaon,Monsoon,Senior IT Professional,94.3,50.0,31.6,0.0,0.0,6.8,25.9,25,Below Average
+Undri,Monsoon,Senior IT Professional,82.4,50.0,25.3,100.0,40.0,0.4,39.3,18,Below Average
+Keshav Nagar,Monsoon,Senior IT Professional,72.4,50.0,75.3,0.0,20.0,13.5,35.2,20,Below Average
+Dhanori,Monsoon,Senior IT Professional,82.9,50.0,29.9,0.0,0.0,10.7,25.1,26,Below Average
+Manjri,Monsoon,Senior IT Professional,87.7,50.0,31.6,0.0,0.0,0.0,22.9,27,Below Average
+Viman Nagar,Monsoon,Senior IT Professional,49.5,50.0,63.2,48.7,60.0,35.9,49.6,13,Average
+Balewadi,Monsoon,Senior IT Professional,59.0,50.0,50.6,32.2,40.0,99.8,62.6,5,Good
+Magarpatta,Monsoon,Senior IT Professional,40.0,50.0,50.0,0.0,20.0,43.4,35.5,19,Below Average
+Aundh,Monsoon,Senior IT Professional,54.3,50.0,60.9,81.7,60.0,98.1,71.9,3,Excellent
+Wadgaon Sheri,Monsoon,Senior IT Professional,97.1,50.0,48.9,36.5,40.0,49.9,53.5,10,Average
+Kalyani Nagar,Monsoon,Senior IT Professional,0.0,50.0,56.3,48.7,60.0,77.4,53.6,9,Average
+Punawale,Monsoon,Senior IT Professional,81.9,50.0,49.4,32.2,20.0,0.7,32.1,22,Below Average
+Pimpri Chinchwad,Monsoon,Senior IT Professional,97.1,50.0,35.1,36.5,20.0,66.7,52.5,11,Average
+Kondhwa,Monsoon,Senior IT Professional,88.1,50.0,37.4,100.0,40.0,34.1,52.1,12,Average
+EON Free Zone,Monsoon,Senior IT Professional,29.5,50.0,83.3,0.0,20.0,6.6,27.9,24,Below Average
+NIBM Road,Monsoon,Senior IT Professional,59.0,50.0,21.8,100.0,0.0,11.9,30.7,23,Below Average
+Koregaon Park,Monsoon,Senior IT Professional,30.5,50.0,52.3,89.6,100.0,87.7,72.7,2,Excellent
+Bavdhan,Monsoon,Senior IT Professional,57.1,50.0,31.6,32.2,60.0,35.8,44.3,14,Average
+Katraj,Monsoon,Senior IT Professional,100.0,50.0,20.7,100.0,40.0,47.5,55.4,7,Good
+Moshi,Monsoon,Senior IT Professional,97.6,50.0,0.0,48.7,20.0,12.6,32.3,21,Below Average
+Mahalunge,Monsoon,Senior IT Professional,76.2,50.0,45.4,36.5,40.0,27.2,43.1,15,Average
+Hadapsar,Monsoon,Family with Kids,87.6,50.0,54.0,0.0,0.0,55.3,35.8,17,Below Average
+Kharadi,Monsoon,Family with Kids,58.1,50.0,100.0,0.0,40.0,13.0,34.7,18,Below Average
+Hinjewadi,Monsoon,Family with Kids,77.1,50.0,100.0,32.2,60.0,100.0,72.5,3,Excellent
+Wagholi,Monsoon,Family with Kids,89.0,50.0,64.9,0.0,80.0,37.7,51.7,10,Average
+Wakad,Monsoon,Family with Kids,68.6,50.0,77.0,32.2,40.0,95.2,63.0,4,Good
+Baner,Monsoon,Family with Kids,49.5,50.0,45.4,81.7,20.0,93.0,59.7,6,Good
+Lohegaon,Monsoon,Family with Kids,94.3,50.0,31.6,0.0,0.0,6.8,19.6,25,Below Average
+Undri,Monsoon,Family with Kids,82.4,50.0,25.3,100.0,40.0,0.4,40.9,15,Average
+Keshav Nagar,Monsoon,Family with Kids,72.4,50.0,75.3,0.0,20.0,13.5,28.8,22,Below Average
+Dhanori,Monsoon,Family with Kids,82.9,50.0,29.9,0.0,0.0,10.7,19.5,26,Below Average
+Manjri,Monsoon,Family with Kids,87.7,50.0,31.6,0.0,0.0,0.0,16.9,27,Below Average
+Viman Nagar,Monsoon,Family with Kids,49.5,50.0,63.2,48.7,60.0,35.9,49.4,12,Average
+Balewadi,Monsoon,Family with Kids,59.0,50.0,50.6,32.2,40.0,99.8,60.7,5,Good
+Magarpatta,Monsoon,Family with Kids,40.0,50.0,50.0,0.0,20.0,43.4,32.0,19,Below Average
+Aundh,Monsoon,Family with Kids,54.3,50.0,60.9,81.7,60.0,98.1,73.2,2,Excellent
+Wadgaon Sheri,Monsoon,Family with Kids,97.1,50.0,48.9,36.5,40.0,49.9,50.1,11,Average
+Kalyani Nagar,Monsoon,Family with Kids,0.0,50.0,56.3,48.7,60.0,77.4,56.2,8,Good
+Punawale,Monsoon,Family with Kids,81.9,50.0,49.4,32.2,20.0,0.7,28.2,23,Below Average
+Pimpri Chinchwad,Monsoon,Family with Kids,97.1,50.0,35.1,36.5,20.0,66.7,48.7,13,Average
+Kondhwa,Monsoon,Family with Kids,88.1,50.0,37.4,100.0,40.0,34.1,52.8,9,Average
+EON Free Zone,Monsoon,Family with Kids,29.5,50.0,83.3,0.0,20.0,6.6,23.3,24,Below Average
+NIBM Road,Monsoon,Family with Kids,59.0,50.0,21.8,100.0,0.0,11.9,31.7,20,Below Average
+Koregaon Park,Monsoon,Family with Kids,30.5,50.0,52.3,89.6,100.0,87.7,78.0,1,Excellent
+Bavdhan,Monsoon,Family with Kids,57.1,50.0,31.6,32.2,60.0,35.8,44.4,14,Average
+Katraj,Monsoon,Family with Kids,100.0,50.0,20.7,100.0,40.0,47.5,56.3,7,Good
+Moshi,Monsoon,Family with Kids,97.6,50.0,0.0,48.7,20.0,12.6,30.9,21,Below Average
+Mahalunge,Monsoon,Family with Kids,76.2,50.0,45.4,36.5,40.0,27.2,40.8,16,Average
+Hadapsar,Monsoon,Remote Worker,87.6,50.0,54.0,0.0,0.0,55.3,38.8,19,Below Average
+Kharadi,Monsoon,Remote Worker,58.1,50.0,100.0,0.0,40.0,13.0,30.7,21,Below Average
+Hinjewadi,Monsoon,Remote Worker,77.1,50.0,100.0,32.2,60.0,100.0,63.6,6,Good
+Wagholi,Monsoon,Remote Worker,89.0,50.0,64.9,0.0,80.0,37.7,44.1,17,Average
+Wakad,Monsoon,Remote Worker,68.6,50.0,77.0,32.2,40.0,95.2,57.8,8,Good
+Baner,Monsoon,Remote Worker,49.5,50.0,45.4,81.7,20.0,93.0,64.8,5,Good
+Lohegaon,Monsoon,Remote Worker,94.3,50.0,31.6,0.0,0.0,6.8,29.3,23,Below Average
+Undri,Monsoon,Remote Worker,82.4,50.0,25.3,100.0,40.0,0.4,59.3,7,Good
+Keshav Nagar,Monsoon,Remote Worker,72.4,50.0,75.3,0.0,20.0,13.5,30.4,22,Below Average
+Dhanori,Monsoon,Remote Worker,82.9,50.0,29.9,0.0,0.0,10.7,27.7,25,Below Average
+Manjri,Monsoon,Remote Worker,87.7,50.0,31.6,0.0,0.0,0.0,26.6,26,Below Average
+Viman Nagar,Monsoon,Remote Worker,49.5,50.0,63.2,48.7,60.0,35.9,48.4,13,Average
+Balewadi,Monsoon,Remote Worker,59.0,50.0,50.6,32.2,40.0,99.8,55.5,9,Good
+Magarpatta,Monsoon,Remote Worker,40.0,50.0,50.0,0.0,20.0,43.4,28.7,24,Below Average
+Aundh,Monsoon,Remote Worker,54.3,50.0,60.9,81.7,60.0,98.1,71.6,2,Excellent
+Wadgaon Sheri,Monsoon,Remote Worker,97.1,50.0,48.9,36.5,40.0,49.9,54.3,11,Average
+Kalyani Nagar,Monsoon,Remote Worker,0.0,50.0,56.3,48.7,60.0,77.4,46.4,14,Average
+Punawale,Monsoon,Remote Worker,81.9,50.0,49.4,32.2,20.0,0.7,38.1,20,Below Average
+Pimpri Chinchwad,Monsoon,Remote Worker,97.1,50.0,35.1,36.5,20.0,66.7,55.0,10,Good
+Kondhwa,Monsoon,Remote Worker,88.1,50.0,37.4,100.0,40.0,34.1,67.8,4,Good
+EON Free Zone,Monsoon,Remote Worker,29.5,50.0,83.3,0.0,20.0,6.6,20.9,27,Below Average
+NIBM Road,Monsoon,Remote Worker,59.0,50.0,21.8,100.0,0.0,11.9,52.8,12,Average
+Koregaon Park,Monsoon,Remote Worker,30.5,50.0,52.3,89.6,100.0,87.7,70.6,3,Excellent
+Bavdhan,Monsoon,Remote Worker,57.1,50.0,31.6,32.2,60.0,35.8,43.3,18,Average
+Katraj,Monsoon,Remote Worker,100.0,50.0,20.7,100.0,40.0,47.5,72.0,1,Excellent
+Moshi,Monsoon,Remote Worker,97.6,50.0,0.0,48.7,20.0,12.6,46.2,15,Average
+Mahalunge,Monsoon,Remote Worker,76.2,50.0,45.4,36.5,40.0,27.2,45.4,16,Average
+Hadapsar,Winter,Student / Fresher,87.6,50.0,54.0,38.8,0.0,55.3,59.5,10,Good
+Kharadi,Winter,Student / Fresher,58.1,50.0,100.0,38.8,40.0,13.0,54.7,16,Average
+Hinjewadi,Winter,Student / Fresher,77.1,50.0,100.0,0.0,60.0,100.0,68.7,4,Good
+Wagholi,Winter,Student / Fresher,89.0,50.0,64.9,38.8,80.0,37.7,72.4,1,Excellent
+Wakad,Winter,Student / Fresher,68.6,50.0,77.0,0.0,40.0,95.2,59.3,12,Good
+Baner,Winter,Student / Fresher,49.5,50.0,45.4,100.0,20.0,93.0,49.5,23,Average
+Lohegaon,Winter,Student / Fresher,94.3,50.0,31.6,38.8,0.0,6.8,57.9,13,Good
+Undri,Winter,Student / Fresher,82.4,50.0,25.3,83.9,40.0,0.4,59.8,9,Good
+Keshav Nagar,Winter,Student / Fresher,72.4,50.0,75.3,38.8,20.0,13.5,55.7,14,Good
+Dhanori,Winter,Student / Fresher,82.9,50.0,29.9,38.8,0.0,10.7,52.7,18,Average
+Manjri,Winter,Student / Fresher,87.7,50.0,31.6,38.8,0.0,0.0,54.6,17,Average
+Viman Nagar,Winter,Student / Fresher,49.5,50.0,63.2,61.7,60.0,35.9,52.5,21,Average
+Balewadi,Winter,Student / Fresher,59.0,50.0,50.6,0.0,40.0,99.8,52.6,20,Average
+Magarpatta,Winter,Student / Fresher,40.0,50.0,50.0,38.8,20.0,43.4,40.1,25,Average
+Aundh,Winter,Student / Fresher,54.3,50.0,60.9,100.0,60.0,98.1,59.4,11,Good
+Wadgaon Sheri,Winter,Student / Fresher,97.1,50.0,48.9,77.6,40.0,49.9,71.0,2,Excellent
+Kalyani Nagar,Winter,Student / Fresher,0.0,50.0,56.3,61.7,60.0,77.4,31.6,27,Below Average
+Punawale,Winter,Student / Fresher,81.9,50.0,49.4,0.0,20.0,0.7,54.8,15,Average
+Pimpri Chinchwad,Winter,Student / Fresher,97.1,50.0,35.1,77.6,20.0,66.7,67.4,5,Good
+Kondhwa,Winter,Student / Fresher,88.1,50.0,37.4,83.9,40.0,34.1,65.3,6,Good
+EON Free Zone,Winter,Student / Fresher,29.5,50.0,83.3,38.8,20.0,6.6,36.9,26,Below Average
+NIBM Road,Winter,Student / Fresher,59.0,50.0,21.8,83.9,0.0,11.9,43.5,24,Average
+Koregaon Park,Winter,Student / Fresher,30.5,50.0,52.3,87.6,100.0,87.7,52.7,18,Average
+Bavdhan,Winter,Student / Fresher,57.1,50.0,31.6,0.0,60.0,35.8,49.7,22,Average
+Katraj,Winter,Student / Fresher,100.0,50.0,20.7,83.9,40.0,47.5,69.6,3,Good
+Moshi,Winter,Student / Fresher,97.6,50.0,0.0,61.7,20.0,12.6,60.6,7,Good
+Mahalunge,Winter,Student / Fresher,76.2,50.0,45.4,77.6,40.0,27.2,60.1,8,Good
+Hadapsar,Winter,Junior IT Professional,87.6,50.0,54.0,38.8,0.0,55.3,55.9,13,Good
+Kharadi,Winter,Junior IT Professional,58.1,50.0,100.0,38.8,40.0,13.0,60.4,8,Good
+Hinjewadi,Winter,Junior IT Professional,77.1,50.0,100.0,0.0,60.0,100.0,66.6,2,Good
+Wagholi,Winter,Junior IT Professional,89.0,50.0,64.9,38.8,80.0,37.7,66.2,3,Good
+Wakad,Winter,Junior IT Professional,68.6,50.0,77.0,0.0,40.0,95.2,56.1,12,Good
+Baner,Winter,Junior IT Professional,49.5,50.0,45.4,100.0,20.0,93.0,55.4,14,Good
+Lohegaon,Winter,Junior IT Professional,94.3,50.0,31.6,38.8,0.0,6.8,49.9,17,Average
+Undri,Winter,Junior IT Professional,82.4,50.0,25.3,83.9,40.0,0.4,55.1,16,Good
+Keshav Nagar,Winter,Junior IT Professional,72.4,50.0,75.3,38.8,20.0,13.5,56.5,11,Good
+Dhanori,Winter,Junior IT Professional,82.9,50.0,29.9,38.8,0.0,10.7,46.2,22,Average
+Manjri,Winter,Junior IT Professional,87.7,50.0,31.6,38.8,0.0,0.0,47.5,19,Average
+Viman Nagar,Winter,Junior IT Professional,49.5,50.0,63.2,61.7,60.0,35.9,55.2,15,Good
+Balewadi,Winter,Junior IT Professional,59.0,50.0,50.6,0.0,40.0,99.8,46.8,20,Average
+Magarpatta,Winter,Junior IT Professional,40.0,50.0,50.0,38.8,20.0,43.4,42.0,25,Average
+Aundh,Winter,Junior IT Professional,54.3,50.0,60.9,100.0,60.0,98.1,64.9,4,Good
+Wadgaon Sheri,Winter,Junior IT Professional,97.1,50.0,48.9,77.6,40.0,49.9,67.0,1,Good
+Kalyani Nagar,Winter,Junior IT Professional,0.0,50.0,56.3,61.7,60.0,77.4,40.7,26,Average
+Punawale,Winter,Junior IT Professional,81.9,50.0,49.4,0.0,20.0,0.7,46.5,21,Average
+Pimpri Chinchwad,Winter,Junior IT Professional,97.1,50.0,35.1,77.6,20.0,66.7,62.4,5,Good
+Kondhwa,Winter,Junior IT Professional,88.1,50.0,37.4,83.9,40.0,34.1,61.6,6,Good
+EON Free Zone,Winter,Junior IT Professional,29.5,50.0,83.3,38.8,20.0,6.6,45.3,23,Average
+NIBM Road,Winter,Junior IT Professional,59.0,50.0,21.8,83.9,0.0,11.9,43.9,24,Average
+Koregaon Park,Winter,Junior IT Professional,30.5,50.0,52.3,87.6,100.0,87.7,57.2,10,Good
+Bavdhan,Winter,Junior IT Professional,57.1,50.0,31.6,0.0,60.0,35.8,40.3,27,Average
+Katraj,Winter,Junior IT Professional,100.0,50.0,20.7,83.9,40.0,47.5,61.6,6,Good
+Moshi,Winter,Junior IT Professional,97.6,50.0,0.0,61.7,20.0,12.6,48.7,18,Average
+Mahalunge,Winter,Junior IT Professional,76.2,50.0,45.4,77.6,40.0,27.2,58.7,9,Good
+Hadapsar,Winter,Senior IT Professional,87.6,50.0,54.0,38.8,0.0,55.3,46.7,15,Average
+Kharadi,Winter,Senior IT Professional,58.1,50.0,100.0,38.8,40.0,13.0,44.5,16,Average
+Hinjewadi,Winter,Senior IT Professional,77.1,50.0,100.0,0.0,60.0,100.0,73.6,2,Excellent
+Wagholi,Winter,Senior IT Professional,89.0,50.0,64.9,38.8,80.0,37.7,59.3,7,Good
+Wakad,Winter,Senior IT Professional,68.6,50.0,77.0,0.0,40.0,95.2,63.4,4,Good
+Baner,Winter,Senior IT Professional,49.5,50.0,45.4,100.0,20.0,93.0,61.1,5,Good
+Lohegaon,Winter,Senior IT Professional,94.3,50.0,31.6,38.8,0.0,6.8,29.8,23,Below Average
+Undri,Winter,Senior IT Professional,82.4,50.0,25.3,83.9,40.0,0.4,37.7,20,Below Average
+Keshav Nagar,Winter,Senior IT Professional,72.4,50.0,75.3,38.8,20.0,13.5,39.1,19,Below Average
+Dhanori,Winter,Senior IT Professional,82.9,50.0,29.9,38.8,0.0,10.7,29.0,25,Below Average
+Manjri,Winter,Senior IT Professional,87.7,50.0,31.6,38.8,0.0,0.0,26.8,27,Below Average
+Viman Nagar,Winter,Senior IT Professional,49.5,50.0,63.2,61.7,60.0,35.9,50.9,12,Average
+Balewadi,Winter,Senior IT Professional,59.0,50.0,50.6,0.0,40.0,99.8,59.4,6,Good
+Magarpatta,Winter,Senior IT Professional,40.0,50.0,50.0,38.8,20.0,43.4,39.4,18,Below Average
+Aundh,Winter,Senior IT Professional,54.3,50.0,60.9,100.0,60.0,98.1,73.7,1,Excellent
+Wadgaon Sheri,Winter,Senior IT Professional,97.1,50.0,48.9,77.6,40.0,49.9,57.6,8,Good
+Kalyani Nagar,Winter,Senior IT Professional,0.0,50.0,56.3,61.7,60.0,77.4,54.8,10,Average
+Punawale,Winter,Senior IT Professional,81.9,50.0,49.4,0.0,20.0,0.7,28.9,26,Below Average
+Pimpri Chinchwad,Winter,Senior IT Professional,97.1,50.0,35.1,77.6,20.0,66.7,56.6,9,Good
+Kondhwa,Winter,Senior IT Professional,88.1,50.0,37.4,83.9,40.0,34.1,50.4,13,Average
+EON Free Zone,Winter,Senior IT Professional,29.5,50.0,83.3,38.8,20.0,6.6,31.8,22,Below Average
+NIBM Road,Winter,Senior IT Professional,59.0,50.0,21.8,83.9,0.0,11.9,29.1,24,Below Average
+Koregaon Park,Winter,Senior IT Professional,30.5,50.0,52.3,87.6,100.0,87.7,72.5,3,Excellent
+Bavdhan,Winter,Senior IT Professional,57.1,50.0,31.6,0.0,60.0,35.8,41.1,17,Average
+Katraj,Winter,Senior IT Professional,100.0,50.0,20.7,83.9,40.0,47.5,53.7,11,Average
+Moshi,Winter,Senior IT Professional,97.6,50.0,0.0,61.7,20.0,12.6,33.6,21,Below Average
+Mahalunge,Winter,Senior IT Professional,76.2,50.0,45.4,77.6,40.0,27.2,47.2,14,Average
+Hadapsar,Winter,Family with Kids,87.6,50.0,54.0,38.8,0.0,55.3,41.6,15,Average
+Kharadi,Winter,Family with Kids,58.1,50.0,100.0,38.8,40.0,13.0,40.5,16,Average
+Hinjewadi,Winter,Family with Kids,77.1,50.0,100.0,0.0,60.0,100.0,67.7,3,Good
+Wagholi,Winter,Family with Kids,89.0,50.0,64.9,38.8,80.0,37.7,57.5,7,Good
+Wakad,Winter,Family with Kids,68.6,50.0,77.0,0.0,40.0,95.2,58.1,5,Good
+Baner,Winter,Family with Kids,49.5,50.0,45.4,100.0,20.0,93.0,62.4,4,Good
+Lohegaon,Winter,Family with Kids,94.3,50.0,31.6,38.8,0.0,6.8,25.5,24,Below Average
+Undri,Winter,Family with Kids,82.4,50.0,25.3,83.9,40.0,0.4,38.5,18,Below Average
+Keshav Nagar,Winter,Family with Kids,72.4,50.0,75.3,38.8,20.0,13.5,34.7,20,Below Average
+Dhanori,Winter,Family with Kids,82.9,50.0,29.9,38.8,0.0,10.7,25.3,25,Below Average
+Manjri,Winter,Family with Kids,87.7,50.0,31.6,38.8,0.0,0.0,22.8,27,Below Average
+Viman Nagar,Winter,Family with Kids,49.5,50.0,63.2,61.7,60.0,35.9,51.3,12,Average
+Balewadi,Winter,Family with Kids,59.0,50.0,50.6,0.0,40.0,99.8,55.9,9,Good
+Magarpatta,Winter,Family with Kids,40.0,50.0,50.0,38.8,20.0,43.4,37.8,19,Below Average
+Aundh,Winter,Family with Kids,54.3,50.0,60.9,100.0,60.0,98.1,76.0,2,Excellent
+Wadgaon Sheri,Winter,Family with Kids,97.1,50.0,48.9,77.6,40.0,49.9,56.2,8,Good
+Kalyani Nagar,Winter,Family with Kids,0.0,50.0,56.3,61.7,60.0,77.4,58.1,5,Good
+Punawale,Winter,Family with Kids,81.9,50.0,49.4,0.0,20.0,0.7,23.3,26,Below Average
+Pimpri Chinchwad,Winter,Family with Kids,97.1,50.0,35.1,77.6,20.0,66.7,54.9,10,Average
+Kondhwa,Winter,Family with Kids,88.1,50.0,37.4,83.9,40.0,34.1,50.4,13,Average
+EON Free Zone,Winter,Family with Kids,29.5,50.0,83.3,38.8,20.0,6.6,29.1,23,Below Average
+NIBM Road,Winter,Family with Kids,59.0,50.0,21.8,83.9,0.0,11.9,29.3,22,Below Average
+Koregaon Park,Winter,Family with Kids,30.5,50.0,52.3,87.6,100.0,87.7,77.7,1,Excellent
+Bavdhan,Winter,Family with Kids,57.1,50.0,31.6,0.0,60.0,35.8,39.6,17,Below Average
+Katraj,Winter,Family with Kids,100.0,50.0,20.7,83.9,40.0,47.5,53.9,11,Average
+Moshi,Winter,Family with Kids,97.6,50.0,0.0,61.7,20.0,12.6,32.8,21,Below Average
+Mahalunge,Winter,Family with Kids,76.2,50.0,45.4,77.6,40.0,27.2,47.0,14,Average
+Hadapsar,Winter,Remote Worker,87.6,50.0,54.0,38.8,0.0,55.3,50.4,13,Average
+Kharadi,Winter,Remote Worker,58.1,50.0,100.0,38.8,40.0,13.0,42.4,19,Average
+Hinjewadi,Winter,Remote Worker,77.1,50.0,100.0,0.0,60.0,100.0,53.9,11,Average
+Wagholi,Winter,Remote Worker,89.0,50.0,64.9,38.8,80.0,37.7,55.7,9,Good
+Wakad,Winter,Remote Worker,68.6,50.0,77.0,0.0,40.0,95.2,48.1,16,Average
+Baner,Winter,Remote Worker,49.5,50.0,45.4,100.0,20.0,93.0,70.3,2,Excellent
+Lohegaon,Winter,Remote Worker,94.3,50.0,31.6,38.8,0.0,6.8,40.9,21,Average
+Undri,Winter,Remote Worker,82.4,50.0,25.3,83.9,40.0,0.4,54.5,10,Average
+Keshav Nagar,Winter,Remote Worker,72.4,50.0,75.3,38.8,20.0,13.5,42.1,20,Average
+Dhanori,Winter,Remote Worker,82.9,50.0,29.9,38.8,0.0,10.7,39.3,23,Below Average
+Manjri,Winter,Remote Worker,87.7,50.0,31.6,38.8,0.0,0.0,38.3,24,Below Average
+Viman Nagar,Winter,Remote Worker,49.5,50.0,63.2,61.7,60.0,35.9,52.3,12,Average
+Balewadi,Winter,Remote Worker,59.0,50.0,50.6,0.0,40.0,99.8,45.8,18,Average
+Magarpatta,Winter,Remote Worker,40.0,50.0,50.0,38.8,20.0,43.4,40.3,22,Average
+Aundh,Winter,Remote Worker,54.3,50.0,60.9,100.0,60.0,98.1,77.0,1,Excellent
+Wadgaon Sheri,Winter,Remote Worker,97.1,50.0,48.9,77.6,40.0,49.9,66.6,6,Good
+Kalyani Nagar,Winter,Remote Worker,0.0,50.0,56.3,61.7,60.0,77.4,50.3,14,Average
+Punawale,Winter,Remote Worker,81.9,50.0,49.4,0.0,20.0,0.7,28.5,27,Below Average
+Pimpri Chinchwad,Winter,Remote Worker,97.1,50.0,35.1,77.6,20.0,66.7,67.3,4,Good
+Kondhwa,Winter,Remote Worker,88.1,50.0,37.4,83.9,40.0,34.1,63.0,7,Good
+EON Free Zone,Winter,Remote Worker,29.5,50.0,83.3,38.8,20.0,6.6,32.5,26,Below Average
+NIBM Road,Winter,Remote Worker,59.0,50.0,21.8,83.9,0.0,11.9,48.0,17,Average
+Koregaon Park,Winter,Remote Worker,30.5,50.0,52.3,87.6,100.0,87.7,70.0,3,Excellent
+Bavdhan,Winter,Remote Worker,57.1,50.0,31.6,0.0,60.0,35.8,33.7,25,Below Average
+Katraj,Winter,Remote Worker,100.0,50.0,20.7,83.9,40.0,47.5,67.2,5,Good
+Moshi,Winter,Remote Worker,97.6,50.0,0.0,61.7,20.0,12.6,50.1,15,Average
+Mahalunge,Winter,Remote Worker,76.2,50.0,45.4,77.6,40.0,27.2,57.7,8,Good
+Hadapsar,Summer,Student / Fresher,87.6,50.0,54.0,35.8,0.0,55.3,59.4,11,Good
+Kharadi,Summer,Student / Fresher,58.1,50.0,100.0,35.8,40.0,13.0,54.6,16,Average
+Hinjewadi,Summer,Student / Fresher,77.1,50.0,100.0,5.8,60.0,100.0,69.0,4,Good
+Wagholi,Summer,Student / Fresher,89.0,50.0,64.9,35.8,80.0,37.7,72.2,1,Excellent
+Wakad,Summer,Student / Fresher,68.6,50.0,77.0,5.8,40.0,95.2,59.6,9,Good
+Baner,Summer,Student / Fresher,49.5,50.0,45.4,80.9,20.0,93.0,48.5,22,Average
+Lohegaon,Summer,Student / Fresher,94.3,50.0,31.6,35.8,0.0,6.8,57.7,13,Good
+Undri,Summer,Student / Fresher,82.4,50.0,25.3,100.0,40.0,0.4,60.6,7,Good
+Keshav Nagar,Summer,Student / Fresher,72.4,50.0,75.3,35.8,20.0,13.5,55.6,14,Good
+Dhanori,Summer,Student / Fresher,82.9,50.0,29.9,35.8,0.0,10.7,52.6,19,Average
+Manjri,Summer,Student / Fresher,87.7,50.0,31.6,35.8,0.0,0.0,54.4,17,Average
+Viman Nagar,Summer,Student / Fresher,49.5,50.0,63.2,45.6,60.0,35.9,51.7,20,Average
+Balewadi,Summer,Student / Fresher,59.0,50.0,50.6,5.8,40.0,99.8,52.9,18,Average
+Magarpatta,Summer,Student / Fresher,40.0,50.0,50.0,35.8,20.0,43.4,40.0,25,Average
+Aundh,Summer,Student / Fresher,54.3,50.0,60.9,80.9,60.0,98.1,58.5,12,Good
+Wadgaon Sheri,Summer,Student / Fresher,97.1,50.0,48.9,66.9,40.0,49.9,70.4,2,Excellent
+Kalyani Nagar,Summer,Student / Fresher,0.0,50.0,56.3,45.6,60.0,77.4,30.8,27,Below Average
+Punawale,Summer,Student / Fresher,81.9,50.0,49.4,5.8,20.0,0.7,55.1,15,Good
+Pimpri Chinchwad,Summer,Student / Fresher,97.1,50.0,35.1,66.9,20.0,66.7,66.9,5,Good
+Kondhwa,Summer,Student / Fresher,88.1,50.0,37.4,100.0,40.0,34.1,66.1,6,Good
+EON Free Zone,Summer,Student / Fresher,29.5,50.0,83.3,35.8,20.0,6.6,36.7,26,Below Average
+NIBM Road,Summer,Student / Fresher,59.0,50.0,21.8,100.0,0.0,11.9,44.4,24,Average
+Koregaon Park,Summer,Student / Fresher,30.5,50.0,52.3,0.0,100.0,87.7,48.3,23,Average
+Bavdhan,Summer,Student / Fresher,57.1,50.0,31.6,5.8,60.0,35.8,50.0,21,Average
+Katraj,Summer,Student / Fresher,100.0,50.0,20.7,100.0,40.0,47.5,70.4,2,Excellent
+Moshi,Summer,Student / Fresher,97.6,50.0,0.0,45.6,20.0,12.6,59.8,8,Good
+Mahalunge,Summer,Student / Fresher,76.2,50.0,45.4,66.9,40.0,27.2,59.5,10,Good
+Hadapsar,Summer,Junior IT Professional,87.6,50.0,54.0,35.8,0.0,55.3,55.4,13,Good
+Kharadi,Summer,Junior IT Professional,58.1,50.0,100.0,35.8,40.0,13.0,60.0,8,Good
+Hinjewadi,Summer,Junior IT Professional,77.1,50.0,100.0,5.8,60.0,100.0,67.5,1,Good
+Wagholi,Summer,Junior IT Professional,89.0,50.0,64.9,35.8,80.0,37.7,65.7,2,Good
+Wakad,Summer,Junior IT Professional,68.6,50.0,77.0,5.8,40.0,95.2,57.0,11,Good
+Baner,Summer,Junior IT Professional,49.5,50.0,45.4,80.9,20.0,93.0,52.5,15,Average
+Lohegaon,Summer,Junior IT Professional,94.3,50.0,31.6,35.8,0.0,6.8,49.4,16,Average
+Undri,Summer,Junior IT Professional,82.4,50.0,25.3,100.0,40.0,0.4,57.6,9,Good
+Keshav Nagar,Summer,Junior IT Professional,72.4,50.0,75.3,35.8,20.0,13.5,56.1,12,Good
+Dhanori,Summer,Junior IT Professional,82.9,50.0,29.9,35.8,0.0,10.7,45.7,22,Average
+Manjri,Summer,Junior IT Professional,87.7,50.0,31.6,35.8,0.0,0.0,47.1,19,Average
+Viman Nagar,Summer,Junior IT Professional,49.5,50.0,63.2,45.6,60.0,35.9,52.8,14,Average
+Balewadi,Summer,Junior IT Professional,59.0,50.0,50.6,5.8,40.0,99.8,47.7,17,Average
+Magarpatta,Summer,Junior IT Professional,40.0,50.0,50.0,35.8,20.0,43.4,41.5,25,Average
+Aundh,Summer,Junior IT Professional,54.3,50.0,60.9,80.9,60.0,98.1,62.1,6,Good
+Wadgaon Sheri,Summer,Junior IT Professional,97.1,50.0,48.9,66.9,40.0,49.9,65.4,3,Good
+Kalyani Nagar,Summer,Junior IT Professional,0.0,50.0,56.3,45.6,60.0,77.4,38.3,27,Below Average
+Punawale,Summer,Junior IT Professional,81.9,50.0,49.4,5.8,20.0,0.7,47.3,18,Average
+Pimpri Chinchwad,Summer,Junior IT Professional,97.1,50.0,35.1,66.9,20.0,66.7,60.8,7,Good
+Kondhwa,Summer,Junior IT Professional,88.1,50.0,37.4,100.0,40.0,34.1,64.0,4,Good
+EON Free Zone,Summer,Junior IT Professional,29.5,50.0,83.3,35.8,20.0,6.6,44.9,23,Average
+NIBM Road,Summer,Junior IT Professional,59.0,50.0,21.8,100.0,0.0,11.9,46.3,20,Average
+Koregaon Park,Summer,Junior IT Professional,30.5,50.0,52.3,0.0,100.0,87.7,44.1,24,Average
+Bavdhan,Summer,Junior IT Professional,57.1,50.0,31.6,5.8,60.0,35.8,41.2,26,Average
+Katraj,Summer,Junior IT Professional,100.0,50.0,20.7,100.0,40.0,47.5,64.0,4,Good
+Moshi,Summer,Junior IT Professional,97.6,50.0,0.0,45.6,20.0,12.6,46.3,20,Average
+Mahalunge,Summer,Junior IT Professional,76.2,50.0,45.4,66.9,40.0,27.2,57.1,10,Good
+Hadapsar,Summer,Senior IT Professional,87.6,50.0,54.0,35.8,0.0,55.3,46.4,14,Average
+Kharadi,Summer,Senior IT Professional,58.1,50.0,100.0,35.8,40.0,13.0,44.2,16,Average
+Hinjewadi,Summer,Senior IT Professional,77.1,50.0,100.0,5.8,60.0,100.0,74.2,1,Excellent
+Wagholi,Summer,Senior IT Professional,89.0,50.0,64.9,35.8,80.0,37.7,59.0,7,Good
+Wakad,Summer,Senior IT Professional,68.6,50.0,77.0,5.8,40.0,95.2,64.0,3,Good
+Baner,Summer,Senior IT Professional,49.5,50.0,45.4,80.9,20.0,93.0,59.2,6,Good
+Lohegaon,Summer,Senior IT Professional,94.3,50.0,31.6,35.8,0.0,6.8,29.5,24,Below Average
+Undri,Summer,Senior IT Professional,82.4,50.0,25.3,100.0,40.0,0.4,39.3,18,Below Average
+Keshav Nagar,Summer,Senior IT Professional,72.4,50.0,75.3,35.8,20.0,13.5,38.8,20,Below Average
+Dhanori,Summer,Senior IT Professional,82.9,50.0,29.9,35.8,0.0,10.7,28.7,26,Below Average
+Manjri,Summer,Senior IT Professional,87.7,50.0,31.6,35.8,0.0,0.0,26.5,27,Below Average
+Viman Nagar,Summer,Senior IT Professional,49.5,50.0,63.2,45.6,60.0,35.9,49.2,13,Average
+Balewadi,Summer,Senior IT Professional,59.0,50.0,50.6,5.8,40.0,99.8,60.0,5,Good
+Magarpatta,Summer,Senior IT Professional,40.0,50.0,50.0,35.8,20.0,43.4,39.1,19,Below Average
+Aundh,Summer,Senior IT Professional,54.3,50.0,60.9,80.9,60.0,98.1,71.8,2,Excellent
+Wadgaon Sheri,Summer,Senior IT Professional,97.1,50.0,48.9,66.9,40.0,49.9,56.6,8,Good
+Kalyani Nagar,Summer,Senior IT Professional,0.0,50.0,56.3,45.6,60.0,77.4,53.2,11,Average
+Punawale,Summer,Senior IT Professional,81.9,50.0,49.4,5.8,20.0,0.7,29.5,24,Below Average
+Pimpri Chinchwad,Summer,Senior IT Professional,97.1,50.0,35.1,66.9,20.0,66.7,55.5,9,Good
+Kondhwa,Summer,Senior IT Professional,88.1,50.0,37.4,100.0,40.0,34.1,52.1,12,Average
+EON Free Zone,Summer,Senior IT Professional,29.5,50.0,83.3,35.8,20.0,6.6,31.5,22,Below Average
+NIBM Road,Summer,Senior IT Professional,59.0,50.0,21.8,100.0,0.0,11.9,30.7,23,Below Average
+Koregaon Park,Summer,Senior IT Professional,30.5,50.0,52.3,0.0,100.0,87.7,63.7,4,Good
+Bavdhan,Summer,Senior IT Professional,57.1,50.0,31.6,5.8,60.0,35.8,41.6,17,Average
+Katraj,Summer,Senior IT Professional,100.0,50.0,20.7,100.0,40.0,47.5,55.4,10,Good
+Moshi,Summer,Senior IT Professional,97.6,50.0,0.0,45.6,20.0,12.6,32.0,21,Below Average
+Mahalunge,Summer,Senior IT Professional,76.2,50.0,45.4,66.9,40.0,27.2,46.1,15,Average
+Hadapsar,Summer,Family with Kids,87.6,50.0,54.0,35.8,0.0,55.3,41.1,15,Average
+Kharadi,Summer,Family with Kids,58.1,50.0,100.0,35.8,40.0,13.0,40.1,18,Average
+Hinjewadi,Summer,Family with Kids,77.1,50.0,100.0,5.8,60.0,100.0,68.6,2,Good
+Wagholi,Summer,Family with Kids,89.0,50.0,64.9,35.8,80.0,37.7,57.1,6,Good
+Wakad,Summer,Family with Kids,68.6,50.0,77.0,5.8,40.0,95.2,59.0,5,Good
+Baner,Summer,Family with Kids,49.5,50.0,45.4,80.9,20.0,93.0,59.5,4,Good
+Lohegaon,Summer,Family with Kids,94.3,50.0,31.6,35.8,0.0,6.8,25.0,24,Below Average
+Undri,Summer,Family with Kids,82.4,50.0,25.3,100.0,40.0,0.4,40.9,16,Average
+Keshav Nagar,Summer,Family with Kids,72.4,50.0,75.3,35.8,20.0,13.5,34.2,20,Below Average
+Dhanori,Summer,Family with Kids,82.9,50.0,29.9,35.8,0.0,10.7,24.9,25,Below Average
+Manjri,Summer,Family with Kids,87.7,50.0,31.6,35.8,0.0,0.0,22.3,27,Below Average
+Viman Nagar,Summer,Family with Kids,49.5,50.0,63.2,45.6,60.0,35.9,48.9,13,Average
+Balewadi,Summer,Family with Kids,59.0,50.0,50.6,5.8,40.0,99.8,56.8,7,Good
+Magarpatta,Summer,Family with Kids,40.0,50.0,50.0,35.8,20.0,43.4,37.4,19,Below Average
+Aundh,Summer,Family with Kids,54.3,50.0,60.9,80.9,60.0,98.1,73.1,1,Excellent
+Wadgaon Sheri,Summer,Family with Kids,97.1,50.0,48.9,66.9,40.0,49.9,54.6,10,Average
+Kalyani Nagar,Summer,Family with Kids,0.0,50.0,56.3,45.6,60.0,77.4,55.7,9,Good
+Punawale,Summer,Family with Kids,81.9,50.0,49.4,5.8,20.0,0.7,24.2,26,Below Average
+Pimpri Chinchwad,Summer,Family with Kids,97.1,50.0,35.1,66.9,20.0,66.7,53.3,11,Average
+Kondhwa,Summer,Family with Kids,88.1,50.0,37.4,100.0,40.0,34.1,52.8,12,Average
+EON Free Zone,Summer,Family with Kids,29.5,50.0,83.3,35.8,20.0,6.6,28.6,23,Below Average
+NIBM Road,Summer,Family with Kids,59.0,50.0,21.8,100.0,0.0,11.9,31.7,21,Below Average
+Koregaon Park,Summer,Family with Kids,30.5,50.0,52.3,0.0,100.0,87.7,64.6,3,Good
+Bavdhan,Summer,Family with Kids,57.1,50.0,31.6,5.8,60.0,35.8,40.5,17,Average
+Katraj,Summer,Family with Kids,100.0,50.0,20.7,100.0,40.0,47.5,56.3,8,Good
+Moshi,Summer,Family with Kids,97.6,50.0,0.0,45.6,20.0,12.6,30.4,22,Below Average
+Mahalunge,Summer,Family with Kids,76.2,50.0,45.4,66.9,40.0,27.2,45.4,14,Average
+Hadapsar,Summer,Remote Worker,87.6,50.0,54.0,35.8,0.0,55.3,49.5,13,Average
+Kharadi,Summer,Remote Worker,58.1,50.0,100.0,35.8,40.0,13.0,41.5,19,Average
+Hinjewadi,Summer,Remote Worker,77.1,50.0,100.0,5.8,60.0,100.0,55.7,8,Good
+Wagholi,Summer,Remote Worker,89.0,50.0,64.9,35.8,80.0,37.7,54.9,9,Average
+Wakad,Summer,Remote Worker,68.6,50.0,77.0,5.8,40.0,95.2,49.9,12,Average
+Baner,Summer,Remote Worker,49.5,50.0,45.4,80.9,20.0,93.0,64.5,4,Good
+Lohegaon,Summer,Remote Worker,94.3,50.0,31.6,35.8,0.0,6.8,40.0,21,Average
+Undri,Summer,Remote Worker,82.4,50.0,25.3,100.0,40.0,0.4,59.3,7,Good
+Keshav Nagar,Summer,Remote Worker,72.4,50.0,75.3,35.8,20.0,13.5,41.2,20,Average
+Dhanori,Summer,Remote Worker,82.9,50.0,29.9,35.8,0.0,10.7,38.5,23,Below Average
+Manjri,Summer,Remote Worker,87.7,50.0,31.6,35.8,0.0,0.0,37.4,24,Below Average
+Viman Nagar,Summer,Remote Worker,49.5,50.0,63.2,45.6,60.0,35.9,47.4,15,Average
+Balewadi,Summer,Remote Worker,59.0,50.0,50.6,5.8,40.0,99.8,47.5,14,Average
+Magarpatta,Summer,Remote Worker,40.0,50.0,50.0,35.8,20.0,43.4,39.4,22,Below Average
+Aundh,Summer,Remote Worker,54.3,50.0,60.9,80.9,60.0,98.1,71.3,2,Excellent
+Wadgaon Sheri,Summer,Remote Worker,97.1,50.0,48.9,66.9,40.0,49.9,63.4,6,Good
+Kalyani Nagar,Summer,Remote Worker,0.0,50.0,56.3,45.6,60.0,77.4,45.5,16,Average
+Punawale,Summer,Remote Worker,81.9,50.0,49.4,5.8,20.0,0.7,30.2,27,Below Average
+Pimpri Chinchwad,Summer,Remote Worker,97.1,50.0,35.1,66.9,20.0,66.7,64.1,5,Good
+Kondhwa,Summer,Remote Worker,88.1,50.0,37.4,100.0,40.0,34.1,67.8,3,Good
+EON Free Zone,Summer,Remote Worker,29.5,50.0,83.3,35.8,20.0,6.6,31.6,26,Below Average
+NIBM Road,Summer,Remote Worker,59.0,50.0,21.8,100.0,0.0,11.9,52.8,11,Average
+Koregaon Park,Summer,Remote Worker,30.5,50.0,52.3,0.0,100.0,87.7,43.7,18,Average
+Bavdhan,Summer,Remote Worker,57.1,50.0,31.6,5.8,60.0,35.8,35.4,25,Below Average
+Katraj,Summer,Remote Worker,100.0,50.0,20.7,100.0,40.0,47.5,72.0,1,Excellent
+Moshi,Summer,Remote Worker,97.6,50.0,0.0,45.6,20.0,12.6,45.2,17,Average
+Mahalunge,Summer,Remote Worker,76.2,50.0,45.4,66.9,40.0,27.2,54.5,10,Average

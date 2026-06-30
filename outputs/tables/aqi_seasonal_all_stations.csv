@@ -1,0 +1,28 @@
+station,season,mean_aqi,n_days,dominant_pollutant,category
+Katraj Dairy,Monsoon,50.5,120,PM2.5,Satisfactory
+Katraj Dairy,Summer,88.3,120,PM2.5,Satisfactory
+Katraj Dairy,Winter,114.5,120,PM2.5,Moderate
+Dhankawadi,Monsoon,38.9,120,PM2.5,Good
+Dhankawadi,Summer,115.2,120,PM2.5,Moderate
+Dhankawadi,Winter,117.5,120,PM2.5,Moderate
+Karve Road,Monsoon,52.9,120,PM2.5,Satisfactory
+Karve Road,Summer,146.9,120,PM2.5,Moderate
+Karve Road,Winter,111.5,120,PM2.5,Moderate
+Bhumkar Nagar,Monsoon,66.1,120,PM2.5,Satisfactory
+Bhumkar Nagar,Summer,143.5,120,PM2.5,Moderate
+Bhumkar Nagar,Winter,182.4,120,PM2.5,Moderate
+Hadapsar,Monsoon,73.5,120,PM2.5,Satisfactory
+Hadapsar,Summer,125.9,120,PM2.5,Moderate
+Hadapsar,Winter,151.0,120,PM2.5,Moderate
+Panchawati-Pashan,Monsoon,54.7,120,PM2.5,Satisfactory
+Panchawati-Pashan,Summer,99.5,120,PM2.5,Satisfactory
+Panchawati-Pashan,Winter,101.5,120,PM2.5,Moderate
+Alandi,Monsoon,62.3,120,PM2.5,Satisfactory
+Alandi,Summer,120.2,120,PM2.5,Moderate
+Alandi,Winter,132.5,120,PM2.5,Moderate
+Bhosari,Monsoon,65.1,120,PM2.5,Satisfactory
+Bhosari,Summer,107.7,120,PM2.5,Moderate
+Bhosari,Winter,119.6,120,PM2.5,Moderate
+Nigdi,Monsoon,75.4,120,PM2.5,Satisfactory
+Nigdi,Summer,102.2,120,PM2.5,Moderate
+Nigdi,Winter,126.8,120,PM2.5,Moderate

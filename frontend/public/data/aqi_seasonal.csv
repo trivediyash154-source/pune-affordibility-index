@@ -1,0 +1,4 @@
+station,season,mean_aqi,n_days,dominant_pollutant,category
+Katraj Dairy,Monsoon,50.5,183,CO,Satisfactory
+Katraj Dairy,Winter,114.5,192,PM10,Moderate
+Katraj Dairy,Summer,88.3,197,PM10,Satisfactory

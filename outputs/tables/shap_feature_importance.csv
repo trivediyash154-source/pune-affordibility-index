@@ -1,0 +1,35 @@
+feature,mean_abs_shap,rank
+num__area,0.1402337015513579,1
+num__beds,0.1360715772027933,2
+num__bathrooms,0.08541372848160302,3
+cat__furnishing_Unfurnished,0.06262835252980571,4
+num__balconies,0.062035679706342765,5
+cat__locality_Wagholi,0.05234135946056407,6
+cat__furnishing_Furnished,0.042687649110372504,7
+cat__locality_Hadapsar,0.022741181564841763,8
+cat__locality_Viman Nagar,0.0201095668453016,9
+cat__locality_Kharadi,0.017896322782315496,10
+cat__locality_Baner,0.01628807560637305,11
+cat__locality_Kalyani Nagar,0.008407399470791116,12
+cat__locality_Katraj,0.007853690863584738,13
+cat__locality_Lohegaon,0.007788333075194763,14
+cat__locality_Koregaon Park,0.0077489031926273174,15
+cat__locality_Manjri,0.007621192099774264,16
+cat__locality_Balewadi,0.007250332503238208,17
+cat__locality_Moshi,0.006583724166081213,18
+cat__locality_Pimpri Chinchwad,0.006240898706040883,19
+cat__locality_Wakad,0.005975935811623173,20
+cat__locality_Kondhwa,0.005837610397312415,21
+cat__locality_Undri,0.005027908321195485,22
+cat__locality_Dhanori,0.004658783810311767,23
+cat__locality_Magarpatta,0.004149935145965889,24
+cat__locality_Keshav Nagar,0.0029407386262832146,25
+cat__locality_NIBM Road,0.0022754428693507727,26
+cat__locality_Mahalunge,0.002174952953110636,27
+cat__locality_Hinjewadi,0.0018620680481786973,28
+cat__locality_Aundh,0.0015717332543732309,29
+cat__locality_Punawale,0.0014031260560979206,30
+cat__locality_Wadgaon Sheri,0.0013102274297032263,31
+cat__furnishing_Semi-Furnished,0.0010500422887057077,32
+cat__locality_EON Free Zone,0.00023875903429756068,33
+cat__locality_Bavdhan,0.0,34

@@ -1,0 +1,28 @@
+locality,n_listings,aqi_station,aqi_station_nearby,aqi_is_proxy
+Hadapsar,106,Hadapsar,True,False
+Kharadi,98,Hadapsar,True,False
+Hinjewadi,94,Bhumkar Nagar,True,False
+Wagholi,94,Hadapsar,True,False
+Wakad,53,Bhumkar Nagar,True,False
+Baner,44,Panchawati-Pashan,True,False
+Lohegaon,35,Hadapsar,True,False
+Undri,35,Katraj Dairy,True,False
+Keshav Nagar,31,Hadapsar,True,False
+Dhanori,26,Hadapsar,True,False
+Manjri,26,Hadapsar,True,False
+Viman Nagar,24,Alandi,True,False
+Balewadi,23,Bhumkar Nagar,True,False
+Magarpatta,22,Hadapsar,True,False
+Aundh,21,Panchawati-Pashan,True,False
+Wadgaon Sheri,21,Bhosari,True,False
+Kalyani Nagar,21,Alandi,True,False
+Punawale,20,Bhumkar Nagar,True,False
+Pimpri Chinchwad,20,Bhosari,True,False
+Kondhwa,20,Katraj Dairy,True,False
+EON Free Zone,20,Hadapsar,True,False
+NIBM Road,18,Katraj Dairy,True,False
+Koregaon Park,18,Karve Road,True,False
+Bavdhan,17,Bhumkar Nagar,True,False
+Katraj,16,Katraj Dairy,True,False
+Moshi,16,Alandi,True,False
+Mahalunge,15,Bhosari,True,False

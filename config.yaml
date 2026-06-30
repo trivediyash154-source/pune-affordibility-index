@@ -1,0 +1,183 @@
+# =====================================================================
+# config.yaml  —  Single source of truth: Pune Seasonal Affordability-Livability Index
+# =====================================================================
+# Real-data, seasonally-dynamic design. Study localities are DATA-DRIVEN
+# (selected from the MagicBricks Pune rentals by a listing-count threshold),
+# NOT hand-listed. Every weight, season, persona and source is declared here
+# so it can be defended in a viva.
+#
+# NO FABRICATED DATA: synthetic fields from the original Excel are dropped.
+# Rent comes only from MagicBricks; AQI only from real MPCB stations.
+# ---------------------------------------------------------------------
+
+project:
+  name: "Pune Seasonal Affordability-Livability Index"
+  seed: 42
+  crs_latlon: "EPSG:4326"
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  outputs: "outputs"
+  figures: "outputs/figures"
+  tables: "outputs/tables"
+
+defaults:
+  monthly_income_inr: 60000
+  recommended_rent_share: 0.30
+  bhk: 1
+  primary_work_hub: "Shivaji Nagar"
+
+# STEP 1 — study-unit selection rule (data-driven, reproducible)
+cost_of_living:
+  # Numbeo Pune city-level baseline (single-person monthly cost ex-rent), DISCLOSED.
+  # City-level only -> spatially uniform across localities (non-discriminating in
+  # the index). Verify/refresh from Numbeo at access date; the absolute value does
+  # not affect ranking because it is constant for every locality.
+  city_baseline_inr: 15000     # total of data/processed/col_baseline.csv (ex-rent, single person)
+  source: "Numbeo Cost of Living in Pune"
+  url: "https://www.numbeo.com/cost-of-living/in/Pune"
+  breakdown_file: "data/processed/col_baseline.csv"
+
+study:
+  min_listings: 15            # a locality needs >=15 Pune rent listings to be a study unit
+  # rationale: <15 gives unstable per-locality medians; 15 is the smallest n that
+  # keeps a usable number of localities while bounding sampling error.
+
+# Seasons (Indian climate calendar) used for the seasonal AQI aggregation
+seasons:
+  Monsoon: [6, 7, 8, 9]        # Jun-Sep
+  Winter:  [10, 11, 12, 1]     # Oct-Jan
+  Summer:  [2, 3, 4, 5]        # Feb-May
+
+# Three employment hubs for the commute dimension (coords filled by geo module)
+work_hubs: ["Hinjewadi", "Kharadi", "Shivaji Nagar"]
+
+# ---------------------------------------------------------------------
+# Six dimensions: weight (subjective default, sums to 1.00), direction, label.
+#   direction: cost = lower better (min-max inverted); benefit = higher better
+# ---------------------------------------------------------------------
+dimensions:
+  rent:      {weight: 0.35, direction: cost,    label: "Rent affordability (MagicBricks median, INR/month)"}
+  col:       {weight: 0.20, direction: cost,    label: "Cost of living (Numbeo Pune city baseline, disclosed)"}
+  commute:   {weight: 0.15, direction: cost,    label: "Commute to nearest work hub (OSM road-network)"}
+  aqi:       {weight: 0.10, direction: cost,    label: "Air quality (seasonal CPCB AQI, nearest MPCB station)"}
+  safety:    {weight: 0.10, direction: benefit, label: "Safety (OSM police-proximity proxy — see limitations)"}
+  lifestyle: {weight: 0.10, direction: benefit, label: "Lifestyle & amenities (OSM counts)"}
+
+verdict_bands:
+  - {min: 70, label: "Excellent"}
+  - {min: 55, label: "Good"}
+  - {min: 40, label: "Average"}
+  - {min: 0,  label: "Below Average"}
+
+# ---------------------------------------------------------------------
+# Persona weight vectors — derived transparently from PROJECT_CONTEXT priorities.
+# Each sums to 1.0 and is tunable. Personas are subjective by design.
+# ---------------------------------------------------------------------
+personas:
+  student_fresher:
+    label: "Student / Fresher"
+    income_inr: 25000
+    bhk: 1
+    work_hub: "Shivaji Nagar"
+    priority: "Lowest rent + safety"
+    weights: {rent: 0.45, col: 0.20, commute: 0.10, aqi: 0.05, safety: 0.15, lifestyle: 0.05}
+  junior_it:
+    label: "Junior IT Professional"
+    income_inr: 55000
+    bhk: 1
+    work_hub: "Hinjewadi"
+    priority: "Short commute + air quality"
+    weights: {rent: 0.30, col: 0.15, commute: 0.25, aqi: 0.15, safety: 0.10, lifestyle: 0.05}
+  senior_it:
+    label: "Senior IT Professional"
+    income_inr: 120000
+    bhk: 2
+    work_hub: "Kharadi"
+    priority: "Lifestyle + safety"
+    weights: {rent: 0.15, col: 0.10, commute: 0.15, aqi: 0.10, safety: 0.20, lifestyle: 0.30}
+  family_kids:
+    label: "Family with Kids"
+    income_inr: 150000
+    bhk: 3
+    work_hub: "Shivaji Nagar"
+    priority: "Schools + safety + parks"
+    weights: {rent: 0.10, col: 0.10, commute: 0.10, aqi: 0.15, safety: 0.25, lifestyle: 0.30}
+  remote_worker:
+    label: "Remote Worker"
+    income_inr: 80000
+    bhk: 2
+    work_hub: "Hinjewadi"
+    priority: "Air quality + cafes"
+    weights: {rent: 0.20, col: 0.15, commute: 0.05, aqi: 0.30, safety: 0.10, lifestyle: 0.20}
+
+# ---------------------------------------------------------------------
+# AQI stations (real MPCB 15-min CSVs). Add more by dropping a CSV in
+# data/raw/aqi/ and registering it here; the pipeline ingests any number.
+# `nearby_localities` is an approximate human note; the geo module computes
+# the actual nearest-station assignment once coordinates exist.
+# ---------------------------------------------------------------------
+aqi:
+  reference_years: [2024, 2025]
+  cpcb_averaging_note: "24h mean sub-index for PM2.5/PM10/SO2/NO2; 8h for CO/O3; CPCB 2014 breakpoints."
+  stations:
+    "Katraj Dairy":
+      file: "data/raw/aqi/pune-katraj-dairy-mpcb-2024-25.csv"
+      nearby_localities: ["Katraj","Kondhwa","NIBM Road","Undri"]
+    "Dhankawadi":
+      file: "data/raw/aqi/pune-dhankawadi-iitm-2025.csv"
+      nearby_localities: ["Dhankawadi","Bibwewadi"]
+    "Karve Road":
+      file: "data/raw/aqi/pune-karve-road-mpcb-2024-25.csv"
+      nearby_localities: ["Kothrud","Deccan","Shivajinagar","Koregaon Park","Camp"]
+    "Bhumkar Nagar":
+      file: "data/raw/aqi/pune-bhumkar-nagar-iitm-2024-25.csv"
+      nearby_localities: ["Wakad","Hinjewadi","Punawale","Balewadi","Bavdhan"]
+    "Hadapsar":
+      file: "data/raw/aqi/pune-hadapsar-iitm-2024-25.csv"
+      nearby_localities: ["Hadapsar","Kharadi","Magarpatta","Wagholi","EON Free Zone","Manjri","Keshav Nagar","Lohegaon","Dhanori"]
+    "Panchawati-Pashan":
+      file: "data/raw/aqi/pune-panchawati_pashan-iitm-2024-25.csv"
+      nearby_localities: ["Aundh","Baner"]
+    "Alandi":
+      file: "data/raw/aqi/pune-alandi-iitm-2024-25.csv"
+      nearby_localities: ["Moshi","Viman Nagar","Kalyani Nagar"]
+    "Bhosari":
+      file: "data/raw/aqi/pune-bhosari-iitm-2024-25.csv"
+      nearby_localities: ["Pimpri Chinchwad","Mahalunge","Wadgaon Sheri"]
+    "Nigdi":
+      file: "data/raw/aqi/pune-transport-nagar-nigdi-iitm-2024-25.csv"
+      nearby_localities: ["Nigdi"]
+
+# ---------------------------------------------------------------------
+# Source registry -> auto-populates data/processed/data_dictionary.csv
+# ---------------------------------------------------------------------
+sources:
+  magicbricks:
+    file: "data/raw/magicbricks_rentals.xlsx"
+    name: "MagicBricks rental listings (cities dataset)"
+    url: "https://www.kaggle.com/ (MagicBricks cities rental prices)"
+    license: "Kaggle dataset terms"
+    year: "2024-2025 snapshot (no per-listing date in file)"
+    caveat: "Cross-sectional snapshot; rent is NOT seasonal. Filtered to city==Pune (1779 rows)."
+  katraj_aqi:
+    file: "data/raw/aqi_katraj_2024_25.csv"
+    name: "Katraj Dairy, Pune - MPCB (15-min CAAQMS)"
+    url: "MPCB / CPCB CAAQMS export"
+    license: "Public government monitoring data"
+    year: "2024-2025"
+    caveat: "Single station; ~25-30% missing per pollutant; timestamps labelled +0000."
+  numbeo:
+    url: "https://www.numbeo.com/cost-of-living/in/Pune"
+    name: "Numbeo Cost of Living in Pune"
+    license: "Numbeo terms"
+    caveat: "City-level only; locality COL variation NOT fabricated."
+  osm:
+    url: "https://www.openstreetmap.org"
+    name: "OpenStreetMap (osmnx / Overpass)"
+    license: "ODbL"
+    caveat: "Snapshot date recorded at query time."
+
+# Deprecated (kept for provenance, NOT used): data/raw/pune_rr_rates.csv,
+# data/raw/aqi/opencity_mit_kothrud_2017_23.csv (different years/format).

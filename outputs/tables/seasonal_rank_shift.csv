@@ -1,0 +1,28 @@
+locality,rank_monsoon,rank_winter,rank_shift
+Wadgaon Sheri,3,1,2
+Hinjewadi,1,2,-1
+Wagholi,5,3,2
+Pimpri Chinchwad,8,4,4
+Katraj,2,5,-3
+Aundh,7,6,1
+Kondhwa,4,7,-3
+Wakad,6,8,-2
+Hadapsar,12,9,3
+Mahalunge,13,10,3
+Koregaon Park,10,11,-1
+Baner,14,12,2
+Undri,9,13,-4
+Kharadi,18,14,4
+Keshav Nagar,19,15,4
+Moshi,15,16,-1
+Viman Nagar,17,17,0
+Lohegaon,20,18,2
+Balewadi,11,19,-8
+Manjri,22,20,2
+Dhanori,24,21,3
+Punawale,16,22,-6
+Bavdhan,21,23,-2
+NIBM Road,23,24,-1
+Magarpatta,25,25,0
+EON Free Zone,27,26,1
+Kalyani Nagar,26,27,-1

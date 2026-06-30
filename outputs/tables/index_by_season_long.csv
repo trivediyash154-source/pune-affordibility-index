@@ -1,0 +1,82 @@
+locality,aqi_station,median_rent,commute_min,safety_raw,lifestyle_raw,col,aqi,score_rent,score_col,score_commute,score_aqi,score_safety,score_lifestyle,index,rank,verdict,season
+Hinjewadi,Bhumkar Nagar,25500.0,0.0,3,202.6,15000,66.1,77.1,50.0,100.0,32.2,60.0,100.0,71.2,1,Excellent,Monsoon
+Katraj,Katraj Dairy,13500.0,13.8,2,112.3,15000,50.5,100.0,50.0,20.7,100.0,40.0,47.5,66.9,2,Good,Monsoon
+Wadgaon Sheri,Bhosari,15000.0,8.9,2,116.5,15000,65.1,97.1,50.0,48.9,36.5,40.0,49.9,64.0,3,Good,Monsoon
+Kondhwa,Katraj Dairy,19750.0,10.9,2,89.3,15000,50.5,88.1,50.0,37.4,100.0,40.0,34.1,63.9,4,Good,Monsoon
+Wagholi,Hadapsar,19250.0,6.1,4,95.5,15000,73.5,89.0,50.0,64.9,0.0,80.0,37.7,62.7,5,Good,Monsoon
+Wakad,Bhumkar Nagar,30000.0,4.0,2,194.4,15000,66.1,68.6,50.0,77.0,32.2,40.0,95.2,62.3,6,Good,Monsoon
+Aundh,Panchawati-Pashan,37500.0,6.8,3,199.4,15000,54.7,54.3,50.0,60.9,81.7,60.0,98.1,62.1,7,Good,Monsoon
+Pimpri Chinchwad,Bhosari,15000.0,11.3,1,145.4,15000,65.1,97.1,50.0,35.1,36.5,20.0,66.7,61.6,8,Good,Monsoon
+Undri,Katraj Dairy,22750.0,13.0,2,31.3,15000,50.5,82.4,50.0,25.3,100.0,40.0,0.4,56.7,9,Good,Monsoon
+Koregaon Park,Karve Road,50000.0,8.3,5,181.4,15000,52.9,30.5,50.0,52.3,89.6,100.0,87.7,56.2,10,Good,Monsoon
+Balewadi,Bhumkar Nagar,35000.0,8.6,2,202.3,15000,66.1,59.0,50.0,50.6,32.2,40.0,99.8,55.4,11,Good,Monsoon
+Hadapsar,Hadapsar,20000.0,8.0,0,125.7,15000,73.5,87.6,50.0,54.0,0.0,0.0,55.3,54.3,12,Average,Monsoon
+Mahalunge,Bhosari,26000.0,9.5,2,77.4,15000,65.1,76.2,50.0,45.4,36.5,40.0,27.2,53.8,13,Average,Monsoon
+Baner,Panchawati-Pashan,40000.0,9.5,1,190.6,15000,54.7,49.5,50.0,45.4,81.7,20.0,93.0,53.6,14,Average,Monsoon
+Moshi,Alandi,14750.0,17.4,1,52.3,15000,62.3,97.6,50.0,0.0,48.7,20.0,12.6,52.3,15,Average,Monsoon
+Punawale,Bhumkar Nagar,23000.0,8.8,1,31.8,15000,66.1,81.9,50.0,49.4,32.2,20.0,0.7,51.4,16,Average,Monsoon
+Viman Nagar,Alandi,40000.0,6.4,3,92.4,15000,62.3,49.5,50.0,63.2,48.7,60.0,35.9,51.3,17,Average,Monsoon
+Kharadi,Hadapsar,35500.0,0.0,2,52.9,15000,73.5,58.1,50.0,100.0,0.0,40.0,13.0,50.6,18,Average,Monsoon
+Keshav Nagar,Hadapsar,28000.0,4.3,1,53.9,15000,73.5,72.4,50.0,75.3,0.0,20.0,13.5,50.0,19,Average,Monsoon
+Lohegaon,Hadapsar,16500.0,11.9,0,42.3,15000,73.5,94.3,50.0,31.6,0.0,0.0,6.8,48.4,20,Average,Monsoon
+Bavdhan,Bhumkar Nagar,36000.0,11.9,3,92.2,15000,66.1,57.1,50.0,31.6,32.2,60.0,35.8,47.5,21,Average,Monsoon
+Manjri,Hadapsar,19950.0,11.9,0,30.6,15000,73.5,87.7,50.0,31.6,0.0,0.0,0.0,45.4,22,Average,Monsoon
+NIBM Road,Katraj Dairy,35000.0,13.6,0,51.1,15000,50.5,59.0,50.0,21.8,100.0,0.0,11.9,45.1,23,Average,Monsoon
+Dhanori,Hadapsar,22500.0,12.2,0,49.0,15000,73.5,82.9,50.0,29.9,0.0,0.0,10.7,44.6,24,Average,Monsoon
+Magarpatta,Hadapsar,45000.0,8.7,1,105.2,15000,73.5,40.0,50.0,50.0,0.0,20.0,43.4,37.8,25,Below Average,Monsoon
+Kalyani Nagar,Alandi,66000.0,7.6,3,163.8,15000,62.3,0.0,50.0,56.3,48.7,60.0,77.4,37.1,26,Below Average,Monsoon
+EON Free Zone,Hadapsar,50500.0,2.9,1,41.9,15000,73.5,29.5,50.0,83.3,0.0,20.0,6.6,35.5,27,Below Average,Monsoon
+Wadgaon Sheri,Bhosari,15000.0,8.9,2,116.5,15000,119.6,97.1,50.0,48.9,77.6,40.0,49.9,68.1,1,Good,Winter
+Hinjewadi,Bhumkar Nagar,25500.0,0.0,3,202.6,15000,182.4,77.1,50.0,100.0,0.0,60.0,100.0,68.0,2,Good,Winter
+Wagholi,Hadapsar,19250.0,6.1,4,95.5,15000,151.0,89.0,50.0,64.9,38.8,80.0,37.7,66.5,3,Good,Winter
+Pimpri Chinchwad,Bhosari,15000.0,11.3,1,145.4,15000,119.6,97.1,50.0,35.1,77.6,20.0,66.7,65.7,4,Good,Winter
+Katraj,Katraj Dairy,13500.0,13.8,2,112.3,15000,114.5,100.0,50.0,20.7,83.9,40.0,47.5,65.2,5,Good,Winter
+Aundh,Panchawati-Pashan,37500.0,6.8,3,199.4,15000,101.5,54.3,50.0,60.9,100.0,60.0,98.1,64.0,6,Good,Winter
+Kondhwa,Katraj Dairy,19750.0,10.9,2,89.3,15000,114.5,88.1,50.0,37.4,83.9,40.0,34.1,62.2,7,Good,Winter
+Wakad,Bhumkar Nagar,30000.0,4.0,2,194.4,15000,182.4,68.6,50.0,77.0,0.0,40.0,95.2,59.1,8,Good,Winter
+Hadapsar,Hadapsar,20000.0,8.0,0,125.7,15000,151.0,87.6,50.0,54.0,38.8,0.0,55.3,58.2,9,Good,Winter
+Mahalunge,Bhosari,26000.0,9.5,2,77.4,15000,119.6,76.2,50.0,45.4,77.6,40.0,27.2,58.0,10,Good,Winter
+Koregaon Park,Karve Road,50000.0,8.3,5,181.4,15000,111.5,30.5,50.0,52.3,87.6,100.0,87.7,56.0,11,Good,Winter
+Baner,Panchawati-Pashan,40000.0,9.5,1,190.6,15000,101.5,49.5,50.0,45.4,100.0,20.0,93.0,55.4,12,Good,Winter
+Undri,Katraj Dairy,22750.0,13.0,2,31.3,15000,114.5,82.4,50.0,25.3,83.9,40.0,0.4,55.1,13,Good,Winter
+Kharadi,Hadapsar,35500.0,0.0,2,52.9,15000,151.0,58.1,50.0,100.0,38.8,40.0,13.0,54.5,14,Average,Winter
+Keshav Nagar,Hadapsar,28000.0,4.3,1,53.9,15000,151.0,72.4,50.0,75.3,38.8,20.0,13.5,53.9,15,Average,Winter
+Moshi,Alandi,14750.0,17.4,1,52.3,15000,132.5,97.6,50.0,0.0,61.7,20.0,12.6,53.6,16,Average,Winter
+Viman Nagar,Alandi,40000.0,6.4,3,92.4,15000,132.5,49.5,50.0,63.2,61.7,60.0,35.9,52.6,17,Average,Winter
+Lohegaon,Hadapsar,16500.0,11.9,0,42.3,15000,151.0,94.3,50.0,31.6,38.8,0.0,6.8,52.3,18,Average,Winter
+Balewadi,Bhumkar Nagar,35000.0,8.6,2,202.3,15000,182.4,59.0,50.0,50.6,0.0,40.0,99.8,52.2,19,Average,Winter
+Manjri,Hadapsar,19950.0,11.9,0,30.6,15000,151.0,87.7,50.0,31.6,38.8,0.0,0.0,49.3,20,Average,Winter
+Dhanori,Hadapsar,22500.0,12.2,0,49.0,15000,151.0,82.9,50.0,29.9,38.8,0.0,10.7,48.4,21,Average,Winter
+Punawale,Bhumkar Nagar,23000.0,8.8,1,31.8,15000,182.4,81.9,50.0,49.4,0.0,20.0,0.7,48.1,22,Average,Winter
+Bavdhan,Bhumkar Nagar,36000.0,11.9,3,92.2,15000,182.4,57.1,50.0,31.6,0.0,60.0,35.8,44.3,23,Average,Winter
+NIBM Road,Katraj Dairy,35000.0,13.6,0,51.1,15000,114.5,59.0,50.0,21.8,83.9,0.0,11.9,43.5,24,Average,Winter
+Magarpatta,Hadapsar,45000.0,8.7,1,105.2,15000,151.0,40.0,50.0,50.0,38.8,20.0,43.4,41.7,25,Average,Winter
+EON Free Zone,Hadapsar,50500.0,2.9,1,41.9,15000,151.0,29.5,50.0,83.3,38.8,20.0,6.6,39.4,26,Below Average,Winter
+Kalyani Nagar,Alandi,66000.0,7.6,3,163.8,15000,132.5,0.0,50.0,56.3,61.7,60.0,77.4,38.4,27,Below Average,Winter
+Hinjewadi,Bhumkar Nagar,25500.0,0.0,3,202.6,15000,143.5,77.1,50.0,100.0,5.8,60.0,100.0,68.6,1,Good,Summer
+Wadgaon Sheri,Bhosari,15000.0,8.9,2,116.5,15000,107.7,97.1,50.0,48.9,66.9,40.0,49.9,67.0,2,Good,Summer
+Katraj,Katraj Dairy,13500.0,13.8,2,112.3,15000,88.3,100.0,50.0,20.7,100.0,40.0,47.5,66.9,3,Good,Summer
+Wagholi,Hadapsar,19250.0,6.1,4,95.5,15000,125.9,89.0,50.0,64.9,35.8,80.0,37.7,66.2,4,Good,Summer
+Pimpri Chinchwad,Bhosari,15000.0,11.3,1,145.4,15000,107.7,97.1,50.0,35.1,66.9,20.0,66.7,64.6,5,Good,Summer
+Kondhwa,Katraj Dairy,19750.0,10.9,2,89.3,15000,88.3,88.1,50.0,37.4,100.0,40.0,34.1,63.9,6,Good,Summer
+Aundh,Panchawati-Pashan,37500.0,6.8,3,199.4,15000,99.5,54.3,50.0,60.9,80.9,60.0,98.1,62.0,7,Good,Summer
+Wakad,Bhumkar Nagar,30000.0,4.0,2,194.4,15000,143.5,68.6,50.0,77.0,5.8,40.0,95.2,59.7,8,Good,Summer
+Hadapsar,Hadapsar,20000.0,8.0,0,125.7,15000,125.9,87.6,50.0,54.0,35.8,0.0,55.3,57.9,9,Good,Summer
+Mahalunge,Bhosari,26000.0,9.5,2,77.4,15000,107.7,76.2,50.0,45.4,66.9,40.0,27.2,56.9,10,Good,Summer
+Undri,Katraj Dairy,22750.0,13.0,2,31.3,15000,88.3,82.4,50.0,25.3,100.0,40.0,0.4,56.7,11,Good,Summer
+Kharadi,Hadapsar,35500.0,0.0,2,52.9,15000,125.9,58.1,50.0,100.0,35.8,40.0,13.0,54.2,12,Average,Summer
+Keshav Nagar,Hadapsar,28000.0,4.3,1,53.9,15000,125.9,72.4,50.0,75.3,35.8,20.0,13.5,53.6,13,Average,Summer
+Baner,Panchawati-Pashan,40000.0,9.5,1,190.6,15000,99.5,49.5,50.0,45.4,80.9,20.0,93.0,53.5,14,Average,Summer
+Balewadi,Bhumkar Nagar,35000.0,8.6,2,202.3,15000,143.5,59.0,50.0,50.6,5.8,40.0,99.8,52.8,15,Average,Summer
+Moshi,Alandi,14750.0,17.4,1,52.3,15000,120.2,97.6,50.0,0.0,45.6,20.0,12.6,52.0,16,Average,Summer
+Lohegaon,Hadapsar,16500.0,11.9,0,42.3,15000,125.9,94.3,50.0,31.6,35.8,0.0,6.8,52.0,16,Average,Summer
+Viman Nagar,Alandi,40000.0,6.4,3,92.4,15000,120.2,49.5,50.0,63.2,45.6,60.0,35.9,51.0,18,Average,Summer
+Manjri,Hadapsar,19950.0,11.9,0,30.6,15000,125.9,87.7,50.0,31.6,35.8,0.0,0.0,49.0,19,Average,Summer
+Punawale,Bhumkar Nagar,23000.0,8.8,1,31.8,15000,143.5,81.9,50.0,49.4,5.8,20.0,0.7,48.7,20,Average,Summer
+Dhanori,Hadapsar,22500.0,12.2,0,49.0,15000,125.9,82.9,50.0,29.9,35.8,0.0,10.7,48.2,21,Average,Summer
+Koregaon Park,Karve Road,50000.0,8.3,5,181.4,15000,146.9,30.5,50.0,52.3,0.0,100.0,87.7,47.3,22,Average,Summer
+NIBM Road,Katraj Dairy,35000.0,13.6,0,51.1,15000,88.3,59.0,50.0,21.8,100.0,0.0,11.9,45.1,23,Average,Summer
+Bavdhan,Bhumkar Nagar,36000.0,11.9,3,92.2,15000,143.5,57.1,50.0,31.6,5.8,60.0,35.8,44.9,24,Average,Summer
+Magarpatta,Hadapsar,45000.0,8.7,1,105.2,15000,125.9,40.0,50.0,50.0,35.8,20.0,43.4,41.4,25,Average,Summer
+EON Free Zone,Hadapsar,50500.0,2.9,1,41.9,15000,125.9,29.5,50.0,83.3,35.8,20.0,6.6,39.1,26,Below Average,Summer
+Kalyani Nagar,Alandi,66000.0,7.6,3,163.8,15000,120.2,0.0,50.0,56.3,45.6,60.0,77.4,36.7,27,Below Average,Summer

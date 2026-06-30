@@ -1,0 +1,30 @@
+# Environment
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Frontend build artifacts / deps (reproducible via npm install / npm run build)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Misc local caches (geocoding/API response cache, regenerated on demand)
+cache/
+
+# Trained model binaries (regenerated in seconds via src/shap_rent.py)
+models/*.pkl
+
+# Large/raw downloads are reproducible via src/ingest.py or DATA_SOURCES.md URLs —
+# don't commit them, but DO keep the small provided source files and all processed outputs.
+data/raw/aqi/*.csv
+data/raw/aqi_katraj_2024_25.csv
+data/raw/india_rent.csv
+data/raw/osm/*
+!data/raw/pune_rr_rates.csv
+!data/raw/col_baseline.csv
+!data/raw/magicbricks_rentals.xlsx
+!**/.gitkeep

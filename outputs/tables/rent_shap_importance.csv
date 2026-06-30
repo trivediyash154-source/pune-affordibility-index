@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+num__area,0.18219721
+num__beds,0.13957101
+num__bathrooms,0.10828847
+cat__furnishing_Furnished,0.060308274
+num__balconies,0.04951245
+cat__furnishing_Unfurnished,0.047781173
+cat__locality_Wagholi,0.04362093
+cat__locality_Kharadi,0.026639389
+cat__locality_Lohegaon,0.022766832
+cat__locality_Hadapsar,0.02159329
+cat__locality_Undri,0.016834762
+cat__locality_Kalyani Nagar,0.016123135
+cat__locality_Viman Nagar,0.015914556
+cat__locality_Baner,0.014788594
+cat__locality_Manjri,0.013834237

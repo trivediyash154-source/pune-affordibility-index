@@ -1,0 +1,28 @@
+locality,det_rank,fuzzy_mean_rank,fuzzy_rank_std,p_top3
+Wagholi,1,1.0,0.0,1.0
+Wadgaon Sheri,2,2.42,0.49,1.0
+Hinjewadi,3,2.92,0.93,0.703
+Katraj,4,3.7,0.46,0.297
+Kondhwa,5,4.97,0.18,0.0
+Pimpri Chinchwad,6,6.08,0.47,0.0
+Undri,7,7.09,0.48,0.0
+Mahalunge,8,8.41,0.62,0.0
+Moshi,9,8.71,1.05,0.0
+Wakad,10,10.81,1.55,0.0
+Punawale,11,11.57,1.02,0.0
+Lohegaon,12,11.97,1.9,0.0
+Hadapsar,13,13.21,1.87,0.0
+Manjri,14,15.55,2.23,0.0
+Keshav Nagar,15,15.33,1.06,0.0
+Aundh,16,14.85,2.72,0.0
+Dhanori,17,17.81,2.27,0.0
+Kharadi,18,17.68,1.29,0.0
+Bavdhan,19,17.85,2.05,0.0
+Balewadi,20,19.88,0.71,0.0
+Viman Nagar,21,20.19,1.73,0.0
+Koregaon Park,22,21.36,2.93,0.0
+NIBM Road,23,23.26,0.79,0.0
+Baner,24,23.39,0.49,0.0
+Magarpatta,25,25.02,0.14,0.0
+EON Free Zone,26,26.11,0.31,0.0
+Kalyani Nagar,27,26.87,0.4,0.0

@@ -1,0 +1,28 @@
+locality,rent,commute,safety,lifestyle,kmeans_cluster,hier_cluster,tier
+Aundh,54.3,60.9,60.0,98.1,0,1,Tier 1
+Balewadi,59.0,50.6,40.0,99.8,0,1,Tier 1
+Baner,49.5,45.4,20.0,93.0,0,1,Tier 1
+Hinjewadi,77.1,100.0,60.0,100.0,0,1,Tier 1
+Kalyani Nagar,0.0,56.3,60.0,77.4,0,1,Tier 1
+Koregaon Park,30.5,52.3,100.0,87.7,0,1,Tier 1
+Wakad,68.6,77.0,40.0,95.2,0,1,Tier 1
+Bavdhan,57.1,31.6,60.0,35.8,1,2,Tier 2
+Dhanori,82.9,29.9,0.0,10.7,1,2,Tier 2
+EON Free Zone,29.5,83.3,20.0,6.6,1,2,Tier 2
+Hadapsar,87.6,54.0,0.0,55.3,1,2,Tier 2
+Katraj,100.0,20.7,40.0,47.5,1,2,Tier 2
+Keshav Nagar,72.4,75.3,20.0,13.5,1,2,Tier 2
+Kharadi,58.1,100.0,40.0,13.0,1,2,Tier 2
+Kondhwa,88.1,37.4,40.0,34.1,1,2,Tier 2
+Lohegaon,94.3,31.6,0.0,6.8,1,2,Tier 2
+Magarpatta,40.0,50.0,20.0,43.4,1,2,Tier 2
+Mahalunge,76.2,45.4,40.0,27.2,1,2,Tier 2
+Manjri,87.7,31.6,0.0,0.0,1,2,Tier 2
+Moshi,97.6,0.0,20.0,12.6,1,2,Tier 2
+NIBM Road,59.0,21.8,0.0,11.9,1,2,Tier 2
+Pimpri Chinchwad,97.1,35.1,20.0,66.7,1,2,Tier 2
+Punawale,81.9,49.4,20.0,0.7,1,2,Tier 2
+Undri,82.4,25.3,40.0,0.4,1,2,Tier 2
+Viman Nagar,49.5,63.2,60.0,35.9,1,2,Tier 2
+Wadgaon Sheri,97.1,48.9,40.0,49.9,1,2,Tier 2
+Wagholi,89.0,64.9,80.0,37.7,1,2,Tier 2

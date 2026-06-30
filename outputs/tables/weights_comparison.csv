@@ -1,0 +1,7 @@
+dimension,subjective,entropy
+rent,0.35,0.072
+col,0.2,0.0
+commute,0.15,0.106
+aqi,0.1,0.233
+safety,0.1,0.279
+lifestyle,0.1,0.31

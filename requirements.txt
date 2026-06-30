@@ -1,0 +1,32 @@
+# Pune Affordability Index — dependencies (Python 3.12).
+# Human-readable list; exact reproducible pins are frozen to requirements.lock.
+# Install:  uv pip install -r requirements.txt   (or use requirements.lock)
+
+# --- Core (installed in Module 0) ---
+pandas==3.0.3
+numpy==2.5.0
+scipy==1.18.0
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.11.0
+seaborn==0.13.2
+pyyaml==6.0.3
+requests==2.34.2
+geopy>=2.4.0
+
+# --- Geo / amenities (installed on demand by the geo + features modules) ---
+osmnx>=2.0
+folium>=0.17
+
+# --- ML extras (models module) ---
+xgboost>=2.1
+shap>=0.46
+
+# --- Dashboard ---
+streamlit>=1.38
+
+# --- Forecasting (optional) ---
+# Default forecaster is statsmodels ARIMA (already in core, no heavy build).
+# prophet is intentionally NOT pinned: its cmdstan build is heavy and a real
+# per-locality monthly rent series does not exist in open data (see methodology).
+# prophet>=1.1

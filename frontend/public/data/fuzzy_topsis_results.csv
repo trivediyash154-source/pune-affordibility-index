@@ -1,0 +1,136 @@
+persona,season,locality,rank_mean,rank_std,rank_median,p_rank1,p_top3,p_top5,p_top10,rank_95_lo,rank_95_hi
+student_fresher,Winter,Wagholi,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+student_fresher,Winter,Wadgaon Sheri,2.42,0.49,2.0,0.0,1.0,1.0,1.0,2.0,3.0
+student_fresher,Winter,Hinjewadi,2.92,0.93,3.0,0.0,0.703,0.99,1.0,2.0,5.0
+student_fresher,Winter,Katraj,3.7,0.46,4.0,0.0,0.297,1.0,1.0,3.0,4.0
+student_fresher,Winter,Kondhwa,4.97,0.18,5.0,0.0,0.0,1.0,1.0,4.0,5.0
+student_fresher,Winter,Pimpri Chinchwad,6.08,0.47,6.0,0.0,0.0,0.011,0.998,6.0,7.0
+student_fresher,Winter,Undri,7.09,0.48,7.0,0.0,0.0,0.0,1.0,6.0,8.0
+student_fresher,Winter,Mahalunge,8.41,0.62,8.0,0.0,0.0,0.0,0.996,7.0,9.0
+student_fresher,Winter,Moshi,8.71,1.05,9.0,0.0,0.0,0.0,0.943,7.0,11.0
+student_fresher,Winter,Wakad,10.81,1.55,10.0,0.0,0.0,0.0,0.653,9.0,14.0
+student_fresher,Winter,Punawale,11.57,1.02,11.0,0.0,0.0,0.0,0.043,10.0,15.0
+student_fresher,Winter,Lohegaon,11.97,1.9,12.0,0.0,0.0,0.0,0.275,10.0,18.0
+student_fresher,Winter,Hadapsar,13.21,1.87,13.0,0.0,0.0,0.0,0.02,11.0,19.0
+student_fresher,Winter,Aundh,14.85,2.72,16.0,0.0,0.0,0.0,0.065,9.0,18.0
+student_fresher,Winter,Keshav Nagar,15.33,1.06,15.0,0.0,0.0,0.0,0.0,14.0,19.0
+student_fresher,Winter,Manjri,15.55,2.23,15.0,0.0,0.0,0.0,0.0,13.0,21.0
+student_fresher,Winter,Kharadi,17.68,1.29,18.0,0.0,0.0,0.0,0.0,14.0,20.0
+student_fresher,Winter,Dhanori,17.81,2.27,17.0,0.0,0.0,0.0,0.0,15.0,22.0
+student_fresher,Winter,Bavdhan,17.85,2.05,18.0,0.0,0.0,0.0,0.0,13.0,20.0
+student_fresher,Winter,Balewadi,19.88,0.71,20.0,0.0,0.0,0.0,0.0,18.0,21.0
+student_fresher,Winter,Viman Nagar,20.19,1.73,21.0,0.0,0.0,0.0,0.0,14.0,21.0
+student_fresher,Winter,Koregaon Park,21.36,2.93,22.0,0.0,0.0,0.0,0.008,12.0,24.0
+student_fresher,Winter,NIBM Road,23.26,0.79,23.0,0.0,0.0,0.0,0.0,22.0,24.0
+student_fresher,Winter,Baner,23.39,0.49,23.0,0.0,0.0,0.0,0.0,23.0,24.0
+student_fresher,Winter,Magarpatta,25.02,0.14,25.0,0.0,0.0,0.0,0.0,25.0,25.0
+student_fresher,Winter,EON Free Zone,26.11,0.31,26.0,0.0,0.0,0.0,0.0,26.0,27.0
+student_fresher,Winter,Kalyani Nagar,26.87,0.4,27.0,0.0,0.0,0.0,0.0,26.0,27.0
+junior_it,Winter,Wagholi,1.52,0.75,1.0,0.63,0.997,1.0,1.0,1.0,3.0
+junior_it,Winter,Hinjewadi,2.23,1.2,2.0,0.274,0.881,0.986,1.0,1.0,5.0
+junior_it,Winter,Kharadi,3.44,1.46,3.0,0.066,0.604,0.937,0.999,1.0,8.0
+junior_it,Winter,Wadgaon Sheri,3.89,1.42,4.0,0.017,0.389,0.892,1.0,2.0,7.0
+junior_it,Winter,Aundh,4.82,1.42,5.0,0.012,0.118,0.756,0.996,2.0,8.0
+junior_it,Winter,Keshav Nagar,6.43,1.69,6.0,0.0,0.0,0.266,0.978,4.0,10.0
+junior_it,Winter,Kondhwa,8.26,2.28,8.0,0.0,0.01,0.089,0.807,4.0,13.0
+junior_it,Winter,Wakad,8.99,2.71,8.0,0.0,0.0,0.039,0.688,5.0,15.0
+junior_it,Winter,Mahalunge,9.1,1.09,9.0,0.0,0.0,0.001,0.898,7.0,11.0
+junior_it,Winter,Viman Nagar,9.94,2.38,10.0,0.0,0.0,0.001,0.57,7.0,14.0
+junior_it,Winter,Pimpri Chinchwad,10.3,2.26,11.0,0.0,0.0,0.028,0.483,5.0,14.0
+junior_it,Winter,Hadapsar,12.14,1.74,12.0,0.0,0.0,0.0,0.138,8.0,15.0
+junior_it,Winter,Katraj,12.81,2.36,13.0,0.0,0.0,0.004,0.178,7.0,16.0
+junior_it,Winter,Koregaon Park,13.57,3.3,14.0,0.0,0.0,0.001,0.182,7.0,21.0
+junior_it,Winter,Undri,15.6,1.96,15.0,0.0,0.0,0.0,0.006,12.0,19.0
+junior_it,Winter,Baner,16.76,1.83,16.0,0.0,0.0,0.0,0.0,14.0,21.0
+junior_it,Winter,EON Free Zone,16.78,4.01,17.0,0.0,0.0,0.0,0.076,9.0,24.0
+junior_it,Winter,Punawale,17.44,1.64,18.0,0.0,0.0,0.0,0.0,14.0,20.0
+junior_it,Winter,Lohegaon,17.95,1.79,18.0,0.0,0.0,0.0,0.0,15.0,21.0
+junior_it,Winter,Manjri,20.02,1.49,20.0,0.0,0.0,0.0,0.0,17.0,23.0
+junior_it,Winter,Balewadi,20.96,1.68,21.0,0.0,0.0,0.0,0.0,18.0,24.0
+junior_it,Winter,Dhanori,22.05,1.22,22.0,0.0,0.0,0.0,0.0,19.0,24.0
+junior_it,Winter,Moshi,22.29,2.23,23.0,0.0,0.0,0.0,0.0,18.0,26.0
+junior_it,Winter,Kalyani Nagar,24.72,2.55,25.0,0.0,0.0,0.0,0.0,18.0,27.0
+junior_it,Winter,Magarpatta,24.8,1.19,25.0,0.0,0.0,0.0,0.0,22.0,27.0
+junior_it,Winter,NIBM Road,25.31,1.31,25.0,0.0,0.0,0.0,0.0,23.0,27.0
+junior_it,Winter,Bavdhan,25.9,1.06,26.0,0.0,0.0,0.0,0.0,24.0,27.0
+senior_it,Winter,Koregaon Park,1.12,0.41,1.0,0.912,1.0,1.0,1.0,1.0,3.0
+senior_it,Winter,Aundh,2.3,0.53,2.0,0.035,1.0,1.0,1.0,1.0,3.0
+senior_it,Winter,Hinjewadi,2.59,0.59,3.0,0.053,1.0,1.0,1.0,1.0,3.0
+senior_it,Winter,Wakad,4.22,0.52,4.0,0.0,0.0,0.951,1.0,4.0,6.0
+senior_it,Winter,Balewadi,5.53,0.71,5.0,0.0,0.0,0.599,1.0,5.0,7.0
+senior_it,Winter,Kalyani Nagar,5.65,0.79,6.0,0.0,0.0,0.337,1.0,4.0,7.0
+senior_it,Winter,Wagholi,7.29,1.26,8.0,0.0,0.0,0.114,1.0,4.0,9.0
+senior_it,Winter,Baner,7.45,0.69,7.0,0.0,0.0,0.0,0.999,6.0,9.0
+senior_it,Winter,Wadgaon Sheri,9.61,0.49,10.0,0.0,0.0,0.0,1.0,9.0,10.0
+senior_it,Winter,Pimpri Chinchwad,10.06,1.25,10.0,0.0,0.0,0.0,0.61,8.0,13.0
+senior_it,Winter,Viman Nagar,10.58,1.18,11.0,0.0,0.0,0.0,0.39,8.0,12.0
+senior_it,Winter,Katraj,11.75,0.49,12.0,0.0,0.0,0.0,0.0,11.0,12.0
+senior_it,Winter,Bavdhan,13.53,1.07,13.0,0.0,0.0,0.0,0.001,11.0,16.0
+senior_it,Winter,Kondhwa,14.09,0.6,14.0,0.0,0.0,0.0,0.0,13.0,15.0
+senior_it,Winter,Hadapsar,15.01,1.53,15.0,0.0,0.0,0.0,0.0,13.0,17.0
+senior_it,Winter,Mahalunge,16.16,0.73,16.0,0.0,0.0,0.0,0.0,15.0,18.0
+senior_it,Winter,Kharadi,16.41,1.26,17.0,0.0,0.0,0.0,0.0,14.0,18.0
+senior_it,Winter,Magarpatta,17.74,0.74,18.0,0.0,0.0,0.0,0.0,16.0,19.0
+senior_it,Winter,Keshav Nagar,19.41,0.53,19.0,0.0,0.0,0.0,0.0,19.0,20.0
+senior_it,Winter,Undri,19.65,0.8,20.0,0.0,0.0,0.0,0.0,18.0,21.0
+senior_it,Winter,EON Free Zone,21.25,0.79,21.0,0.0,0.0,0.0,0.0,20.0,23.0
+senior_it,Winter,Moshi,21.72,0.58,22.0,0.0,0.0,0.0,0.0,21.0,23.0
+senior_it,Winter,Punawale,23.01,0.45,23.0,0.0,0.0,0.0,0.0,22.0,24.0
+senior_it,Winter,Lohegaon,24.08,0.48,24.0,0.0,0.0,0.0,0.0,23.0,25.0
+senior_it,Winter,Dhanori,25.4,0.5,25.0,0.0,0.0,0.0,0.0,25.0,26.0
+senior_it,Winter,NIBM Road,25.73,1.16,26.0,0.0,0.0,0.0,0.0,23.0,27.0
+senior_it,Winter,Manjri,26.66,0.48,27.0,0.0,0.0,0.0,0.0,26.0,27.0
+family_kids,Winter,Koregaon Park,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+family_kids,Winter,Aundh,2.0,0.0,2.0,0.0,1.0,1.0,1.0,2.0,2.0
+family_kids,Winter,Hinjewadi,3.1,0.34,3.0,0.0,0.906,1.0,1.0,3.0,4.0
+family_kids,Winter,Kalyani Nagar,3.97,0.34,4.0,0.0,0.077,1.0,1.0,3.0,5.0
+family_kids,Winter,Wakad,6.14,0.72,6.0,0.0,0.0,0.177,1.0,5.0,7.0
+family_kids,Winter,Balewadi,6.18,0.92,6.0,0.0,0.0,0.263,1.0,5.0,8.0
+family_kids,Winter,Wagholi,6.25,1.49,6.0,0.0,0.017,0.496,1.0,4.0,8.0
+family_kids,Winter,Baner,7.73,1.11,8.0,0.0,0.0,0.064,0.988,5.0,10.0
+family_kids,Winter,Viman Nagar,9.27,1.4,9.0,0.0,0.0,0.0,0.798,6.0,12.0
+family_kids,Winter,Wadgaon Sheri,9.91,0.44,10.0,0.0,0.0,0.0,0.942,9.0,11.0
+family_kids,Winter,Katraj,11.43,0.5,11.0,0.0,0.0,0.0,0.002,11.0,12.0
+family_kids,Winter,Pimpri Chinchwad,11.74,1.59,12.0,0.0,0.0,0.0,0.202,9.0,14.0
+family_kids,Winter,Bavdhan,12.71,1.28,13.0,0.0,0.0,0.0,0.068,10.0,15.0
+family_kids,Winter,Kondhwa,13.64,0.5,14.0,0.0,0.0,0.0,0.0,13.0,14.0
+family_kids,Winter,Mahalunge,15.03,0.37,15.0,0.0,0.0,0.0,0.0,14.0,16.0
+family_kids,Winter,Hadapsar,16.91,1.25,17.0,0.0,0.0,0.0,0.0,15.0,19.0
+family_kids,Winter,Kharadi,17.02,0.97,17.0,0.0,0.0,0.0,0.0,16.0,19.0
+family_kids,Winter,Undri,17.94,1.08,18.0,0.0,0.0,0.0,0.0,16.0,19.0
+family_kids,Winter,Magarpatta,18.03,0.84,18.0,0.0,0.0,0.0,0.0,17.0,19.0
+family_kids,Winter,Moshi,20.58,0.63,21.0,0.0,0.0,0.0,0.0,20.0,22.0
+family_kids,Winter,Keshav Nagar,20.59,0.64,21.0,0.0,0.0,0.0,0.0,20.0,22.0
+family_kids,Winter,EON Free Zone,22.38,0.62,22.0,0.0,0.0,0.0,0.0,21.0,23.0
+family_kids,Winter,NIBM Road,22.49,0.75,23.0,0.0,0.0,0.0,0.0,21.0,24.0
+family_kids,Winter,Punawale,24.19,0.7,24.0,0.0,0.0,0.0,0.0,23.0,26.0
+family_kids,Winter,Lohegaon,25.01,0.47,25.0,0.0,0.0,0.0,0.0,24.0,26.0
+family_kids,Winter,Dhanori,25.76,0.49,26.0,0.0,0.0,0.0,0.0,24.0,26.0
+family_kids,Winter,Manjri,26.99,0.1,27.0,0.0,0.0,0.0,0.0,27.0,27.0
+remote_worker,Winter,Aundh,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+remote_worker,Winter,Koregaon Park,2.26,0.59,2.0,0.0,0.975,0.992,1.0,2.0,4.0
+remote_worker,Winter,Baner,2.83,0.48,3.0,0.0,0.979,0.998,1.0,2.0,3.0
+remote_worker,Winter,Katraj,4.5,0.6,5.0,0.0,0.033,0.994,1.0,3.0,5.0
+remote_worker,Winter,Pimpri Chinchwad,4.63,0.81,4.0,0.0,0.013,0.82,1.0,4.0,6.0
+remote_worker,Winter,Wadgaon Sheri,5.79,0.44,6.0,0.0,0.001,0.197,1.0,5.0,6.0
+remote_worker,Winter,Kondhwa,7.02,0.21,7.0,0.0,0.0,0.0,1.0,7.0,7.0
+remote_worker,Winter,Mahalunge,8.3,0.64,8.0,0.0,0.0,0.0,0.988,8.0,10.0
+remote_worker,Winter,Kalyani Nagar,9.78,1.71,9.0,0.0,0.0,0.0,0.736,8.0,14.0
+remote_worker,Winter,Undri,10.31,1.75,10.0,0.0,0.0,0.0,0.725,9.0,16.0
+remote_worker,Winter,Viman Nagar,11.15,0.93,11.0,0.0,0.0,0.0,0.209,10.0,14.0
+remote_worker,Winter,Wagholi,12.69,1.44,13.0,0.0,0.0,0.0,0.106,9.0,14.0
+remote_worker,Winter,NIBM Road,12.9,2.21,12.0,0.0,0.0,0.0,0.119,10.0,18.0
+remote_worker,Winter,Moshi,14.38,1.78,14.0,0.0,0.0,0.0,0.001,12.0,18.0
+remote_worker,Winter,Hinjewadi,14.39,2.27,15.0,0.0,0.0,0.0,0.107,9.0,16.0
+remote_worker,Winter,Hadapsar,15.38,0.86,15.0,0.0,0.0,0.0,0.0,14.0,17.0
+remote_worker,Winter,Wakad,16.93,2.08,17.0,0.0,0.0,0.0,0.006,12.0,23.0
+remote_worker,Winter,Balewadi,17.8,2.34,18.0,0.0,0.0,0.0,0.003,12.0,24.0
+remote_worker,Winter,Lohegaon,19.6,1.42,20.0,0.0,0.0,0.0,0.0,17.0,22.0
+remote_worker,Winter,Magarpatta,20.5,1.93,20.0,0.0,0.0,0.0,0.0,19.0,24.0
+remote_worker,Winter,Keshav Nagar,20.87,0.97,21.0,0.0,0.0,0.0,0.0,18.0,22.0
+remote_worker,Winter,Kharadi,21.48,1.64,22.0,0.0,0.0,0.0,0.0,18.0,24.0
+remote_worker,Winter,Dhanori,22.16,1.19,23.0,0.0,0.0,0.0,0.0,19.0,23.0
+remote_worker,Winter,Manjri,23.42,1.13,24.0,0.0,0.0,0.0,0.0,20.0,24.0
+remote_worker,Winter,Bavdhan,25.45,0.68,25.0,0.0,0.0,0.0,0.0,24.975000000000023,26.0
+remote_worker,Winter,EON Free Zone,25.65,0.7,26.0,0.0,0.0,0.0,0.0,25.0,27.0
+remote_worker,Winter,Punawale,26.85,0.37,27.0,0.0,0.0,0.0,0.0,26.0,27.0

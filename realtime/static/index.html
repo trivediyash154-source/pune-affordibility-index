@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pune Live Index — Stream Test</title>
+<style>
+  :root { --bg:#0f0c1d; --card:#1a1530; --accent:#8b5cf6; --accent2:#c084fc; --text:#e9e6f5; --muted:#9b93c7; }
+  * { box-sizing:border-box; font-family:-apple-system,Segoe UI,Roboto,sans-serif; }
+  body { margin:0; background:var(--bg); color:var(--text); }
+  .wrap { display:flex; min-height:100vh; }
+  .side { width:210px; background:#140f26; padding:24px 18px; border-right:1px solid #2a2244; }
+  .side h1 { font-size:16px; color:var(--accent2); }
+  .badge { display:inline-block; margin-top:10px; padding:3px 9px; border-radius:999px; background:#3b1d6e; color:#d6bcff; font-size:11px; }
+  .main { flex:1; padding:28px 34px; }
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:22px; }
+  .card { background:linear-gradient(160deg,var(--card),#221a3e); border:1px solid #322a52; border-radius:16px; padding:18px; box-shadow:0 8px 24px rgba(139,92,246,.12); }
+  .card .label { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.5px; }
+  .card .value { font-size:30px; font-weight:700; margin-top:6px; color:#fff; }
+  .card .sub { color:var(--accent2); font-size:13px; margin-top:4px; }
+  table { width:100%; border-collapse:collapse; }
+  th,td { text-align:left; padding:9px 10px; font-size:13px; border-bottom:1px solid #2a2244; }
+  th { color:var(--muted); font-weight:600; }
+  .pill { font-size:11px; padding:2px 8px; border-radius:999px; background:#7c2d12; color:#fed7aa; }
+  #status { font-size:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside class="side">
+    <h1>● Pune Live Index</h1>
+    <div class="badge">SIMULATED STREAM</div>
+    <div id="imp" style="margin-top:12px;padding:8px 10px;border-radius:10px;font-size:12px;font-weight:600;border:1px solid #2f6b4f;background:rgba(16,120,80,.15);color:#7ee2b8">✓ stream nominal</div>
+    <p style="color:var(--muted);font-size:12px;margin-top:18px;line-height:1.5">
+      Live AQI is simulated with injected 15% corruption; an EMA imputation layer
+      recovers corrupt packets. Rent / commute / amenities are real.
+    </p>
+    <p id="status">connecting…</p>
+  </aside>
+  <main class="main">
+    <div class="grid">
+      <div class="card"><div class="label">AQI now</div><div class="value" id="aqi">–</div><div class="sub" id="cat"></div></div>
+      <div class="card"><div class="label">AQI forecast (next)</div><div class="value" id="fc">–</div><div class="sub">EWMA + trend</div></div>
+      <div class="card"><div class="label">Top locality</div><div class="value" id="top" style="font-size:22px">–</div><div class="sub" id="topi"></div></div>
+      <div class="card"><div class="label">Mean index</div><div class="value" id="mean">–</div><div class="sub">across 27 localities</div></div>
+    </div>
+    <div class="card">
+      <div class="label" style="margin-bottom:10px">Live ranking (top 10) <span class="pill">tick <span id="step">0</span></span></div>
+      <table><thead><tr><th>#</th><th>Locality</th><th>Index</th><th>TOPSIS</th></tr></thead>
+      <tbody id="rows"></tbody></table>
+    </div>
+  </main>
+</div>
+<script>
+  const cat = a => a<=50?"Good":a<=100?"Satisfactory":a<=200?"Moderate":"Poor";
+  const ws = new WebSocket(`ws://${location.host}/ws/live-metrics`);
+  ws.onopen = () => document.getElementById("status").textContent = "● live";
+  ws.onclose = () => document.getElementById("status").textContent = "✕ disconnected";
+  ws.onmessage = ev => {
+    const d = JSON.parse(ev.data);
+    aqi.textContent = d.aqi_now; cat.textContent = (d.imputed ? "imputed • " : "") + cat(d.aqi_now);
+    fc.textContent = d.aqi_forecast_next;
+    top.textContent = d.top_locality; topi.textContent = "index " + d.top_index;
+    mean.textContent = d.mean_index; step.textContent = d.step;
+    const imp = document.getElementById("imp");
+    if (d.imputed) {
+      imp.textContent = "⚠ IMPUTATION LAYER ACTIVE";
+      imp.style.cssText = "margin-top:12px;padding:8px 10px;border-radius:10px;font-size:12px;font-weight:600;border:1px solid #f43f5e;background:rgba(244,63,94,.18);color:#fda4af";
+    } else {
+      imp.textContent = `✓ stream nominal · ${d.total_imputed} imputed (${(d.corruption_rate*100).toFixed(0)}%, MAE ${d.imputation_mae})`;
+      imp.style.cssText = "margin-top:12px;padding:8px 10px;border-radius:10px;font-size:12px;font-weight:600;border:1px solid #2f6b4f;background:rgba(16,120,80,.15);color:#7ee2b8";
+    }
+    rows.innerHTML = d.ranking.map((r,i)=>`<tr><td>${i+1}</td><td>${r.locality}</td><td>${r.index}</td><td>${r.topsis}</td></tr>`).join("");
+  };
+</script>
+</body>
+</html>
