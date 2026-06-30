@@ -1,5 +1,84 @@
 # Pune Index: A Dynamic Urban Livability Assessment Framework
 
+## 0. Quick Start — Run This Project (fresh clone, any machine)
+
+This repo is fully self-contained: the **Python research pipeline**, **all real
+source data**, and the **Next.js website** are all included. No external accounts,
+API keys, or downloads are required to reproduce everything from scratch.
+
+### Prerequisites
+- Python 3.12 (check: `python3 --version`)
+- Node.js 18+ and npm (check: `node --version`)
+
+### 1. Clone and enter the project
+```bash
+git clone https://github.com/trivediyash154-source/pune-affordibility-index.git
+cd pune-affordibility-index
+```
+
+### 2. Run the Python research pipeline
+```bash
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python run_pipeline.py             # runs all 8 steps, seed=42, ~3-5 min
+```
+This regenerates everything in `outputs/tables/` and `outputs/figures/` from the
+real raw data in `data/raw/` (1,779 MagicBricks listings, 9 real MPCB/IITM AQI
+stations). Two extra research modules (not in the main pipeline, run separately):
+```bash
+python -c "from src.fuzzy_topsis import main; main()"   # Triangular-Fuzzy TOPSIS, 10k Monte Carlo runs
+python -c "from src.shap_rent import run_shap; run_shap()"  # SHAP feature importance on the rent model
+```
+
+**macOS-only note:** if `xgboost` fails to import with a `libomp.dylib` error, run:
+```bash
+cp .venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib "$(python3 -c 'import sys;print(sys.base_prefix)')/lib/libomp.dylib"
+```
+
+### 3. Run the website
+```bash
+cd frontend
+npm install
+npm run dev                        # open http://localhost:3000
+```
+7 routes: `/` (landing), `/explorer`, `/compare`, `/personas`, `/custom`,
+`/methodology`, `/research`. All real data is pre-copied into `frontend/public/data/`
+and `frontend/public/figures/`, so the site works immediately without re-running the
+Python pipeline first.
+
+⚠️ **Never run `npm run build` while `npm run dev` is running** — they share the
+`.next/` build cache and will corrupt each other (site will look broken/blank). Stop
+one before running the other.
+
+### 4. (Optional) Run the real-time streaming demo
+A separate FastAPI + WebSocket demo (fault-tolerant live AQI simulation, not used
+for any paper results):
+```bash
+cd ..  # back to project root
+source .venv/bin/activate
+pip install fastapi "uvicorn[standard]"
+uvicorn realtime.main:app --reload --port 8000   # open http://localhost:8000
+```
+
+### Project layout
+```
+src/            Python pipeline modules (rent ML, AQI, MCDA, fuzzy-TOPSIS, SHAP, ...)
+run_pipeline.py Main entrypoint (--steps 1..8)
+data/raw/       Real source data (MagicBricks listings, 9 AQI station CSVs)
+outputs/        Generated tables (CSV) + figures (300 dpi PNG) + methodology docs
+frontend/       Next.js 14 website (7 routes)
+realtime/       FastAPI streaming demo (separate from the main site)
+README2.md      Full technical state document (architecture, verified research
+                numbers, known issues) — read this for deep detail or before
+                writing the paper.
+```
+
+For the complete, currently-verified set of research numbers (Spearman correlations,
+model metrics, SHAP results, fuzzy-TOPSIS probabilities, etc.) see **`README2.md`**.
+
+---
+
 ## 1. What is this Project?
 
 The **Pune Index** is a data-driven, highly customizable urban livability index initially focused on Pune, India. Traditional livability indices (like the EIU Global Livability Index) offer a "one-size-fits-all" ranking that doesn't reflect the real-world constraints of different demographics. A fresh college graduate has vastly different priorities (e.g., cheap rent, nightlife, basic safety) compared to a senior IT professional with a family (e.g., large apartments, proximity to good schools, air quality). 
@@ -34,6 +113,16 @@ The result is a dynamic, user-centric web platform where users can explore how t
 ---
 
 ## 3. What Needs to be Done to Get Selected at IEEE NIT Surat
+
+> **Status update:** Upgrade 1 (Stochastic Fuzzy TOPSIS) below is **already
+> implemented** — see `src/fuzzy_topsis.py` (Triangular Fuzzy Numbers, 10,000
+> Monte Carlo runs, rank-probability output). Upgrade 2 (Kriging) was
+> **deliberately not implemented** — with only 9 AQI stations there isn't enough
+> spatial data to fit a stable variogram, so Kriging would produce unreliable,
+> unjustifiable estimates. This is documented as an intentional, honest scope
+> decision in `README2.md` rather than a missing feature. See `README2.md` for
+> the current, verified state of every research number and what's actually left
+> before submission.
 
 While the software engineering and current MCDA framework are very strong, **IEEE conferences require a novel mathematical, computational, or algorithmic contribution.** Simply applying standard TOPSIS to Pune is generally considered an "Application Paper" and risks rejection if the review committee is strict. 
 
